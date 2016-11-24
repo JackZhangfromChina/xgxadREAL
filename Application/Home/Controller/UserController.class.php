@@ -7,25 +7,26 @@ class UserController extends Controller{
     /*
     **登录
     */
-	public function  login()
+    public function  login()
     {
-    	//和注册一样分为2个逻辑，一个是没有post数据，显示登录页面，另一个进入程序
-    	if(IS_POST){
-    		$user =D('User');
-    		$shuju = $user ->create();
-    		$userInfo = $user ->where(array('user_name' => $shuju['user_name'],'user_pwd' =>$userInfo['user_pwd']))->find();
-    		if($userInfo){
-    			//持久化数据
-    			session('user_id' , $userInfo['user_id']);
-    			session('user_name' , $userInfo['user_name']);
-    			//跳转
-    			$this ->redirect('Index/index');
-    		}else{
-    			echo "用户名或密码错误";
-    		}
-    	}else{ 
-    		$this ->display();
-    	}
+        //和注册一样分为2个逻辑，一个是没有post数据，显示登录页面，另一个进入程序
+        if(IS_POST){
+            $user =D('user');
+            $shuju = $user ->create();
+            $userInfo = $user ->where(array('phone' => $shuju['phone_num'],'password' =>$userInfo['pwd']))->find();
+            if($userInfo){
+                //持久化数据
+                echo 11;die;
+                session('id' , $userInfo['id']);
+                session('name' , $userInfo['name']);
+                //跳转
+                $this ->redirect('Index/index');
+            }else{
+                echo "用户名或密码错误";
+            }
+        }else{ 
+            $this ->display();
+        }
     }
 
 
@@ -53,28 +54,28 @@ class UserController extends Controller{
 
     public function center()
     {
-    	$this ->display();
+        $this ->display();
 
     }
 
     public function detail()
     {
-    	$this ->display();
+        $this ->display();
     }
 
     public function wallet()
     {
-    	$this ->display();
+        $this ->display();
     }
 
     public function income()
     {
-    	$this ->display();
+        $this ->display();
     }
 
     public function myAD()
     {
-    	$this ->display();
+        $this ->display();
     }
 
 
@@ -82,22 +83,27 @@ class UserController extends Controller{
 
     public function information()
     {
-    	$this ->display();
+        $this ->display();
     }
 
     public function recharge()
     {
-    	$this ->display();
+        $this ->display();
     }
 
     public function walletDetail()
     {
-    	$this ->display();
+        $this ->display();
     }
 
     public function incomeDetail()
     {
-    	$this ->display();
+        $this ->display();
+    }
+
+    public function interest()
+    {
+        $this ->display();
     }
 
 
