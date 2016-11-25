@@ -157,9 +157,6 @@ header{
 	line-height: 1.44rem;
 }
 /*==============详情页====================*/
-.person-detail .margin-r{
-	margin-right: 0.64rem;
-}
 .bj-white{
 	background: #FFFFFF;
 }
@@ -336,20 +333,61 @@ footer div{
 	 margin-top: 1.06rem;
 	margin-bottom: 0.16rem;
 }
-.box-border{
+.box-border,.tjimg{
 	width: 100%;
 	border: 1px solid #A0AEB1;
+}
+.tjimg{
+	height: 4rem;
 }
 .box-border p{
 	margin: 0.64rem 0 1.21rem 0.42rem;
 	font-size: 0.6rem;
 	color: #A0AEB1;
 }
+.imgPreview img{
+	display: block;
+	float: left;
+	width: 3.02rem;
+	height: 3.02rem;
+	margin: 0.36rem 0.15rem;
+	cursor:pointer;	
+}
+.add_img{
+	float: left;
+	width: 3.02rem;
+	height: 3.02rem;
+	overflow: hidden;
+	margin: 0.36rem 0.15rem;
+	background:url(../img/Iconfont_Xuxian@2x.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+.up_load{
+	position:absolute;
+	opacity:0;
+	display:inline-block;
+	width: 3.02rem;
+	height: 3.02rem;
+}
+.add{
+	width: 1.06rem;
+	height: 0.85rem;
+	margin: 0.94rem auto;
+}
 .putout-answer{
 	float: left;
 	margin-left: 0.42rem;
 	font-size: 0.6rem!important;
 	color: #A0AEB1!important;
+}
+.box-border li span{
+	display: block;
+	position: absolute;
+	width: 80%;
+	height: 0.68rem;
+	margin-left: 1rem;
+	text-indent: 0;
+	z-index: 9999999;
 }
 .box-border b{
 	font-weight: normal;
@@ -362,32 +400,23 @@ footer div{
 	height: 0.68rem;
 	font-size: 0.6rem;
 	text-indent: 0.78rem;
-}
-.box-border li.correct-bj{
-	margin-bottom: 0.68rem;
-	background: url(../img/duigou_hong@2x.png) no-repeat left center;
-	background-size: 0.68rem 0.68rem;
-}
-.box-border li.margin-b{
 	margin-bottom: 1.21rem;
 	background: url(../img/duigou_h@2x.png) no-repeat left center;
 	background-size: 0.68rem 0.68rem;
 }
+.box-border li:last-child{
+	margin-bottom: 0.68rem;
+}
+.box-border li.correct-bj{
+	background: url(../img/duigou_hong@2x.png) no-repeat left center;
+	background-size: 0.68rem 0.68rem;
+}
+.box-border input{
+	border: none;
+	background: #F9F9F9;
+}
 .balck-color{
 	color: #323232;
-}
-.img-border{
-	width: 3.02rem;
-	height: 3.02rem;
-	overflow: hidden;
-	margin: 0.36rem 0.15rem;
-	background:url(../img/Iconfont_Xuxian@2x.png) no-repeat center center;
-	background-size: 100% 100%;
-}
-.img-border img{
-	width: 1.06rem;
-	height: 0.85rem;
-	margin: 0.94rem auto;
 }
 .some-more p{
 	font-size: 0.6rem;
@@ -397,6 +426,24 @@ footer div{
 .some-more b{
 	font-weight: normal;
 }
+.some-more select{
+	width: auto;
+	border: none;
+	background: none;
+}
+.some-more option{
+	background: #F9F9F9;
+	border-bottom: 1px solid #A0AEB1;
+}
+.some-more input{
+	width: auto;
+	border: none;
+	background: #F9F9F9;
+	color: #EA2E2F!important;
+}
+.some-more input[placeholder]{
+	color: #A0AEB1;
+}
 .kind-title{
 	margin: 1.6rem auto 2.26rem;
 	font-size:0.768rem;
@@ -404,6 +451,7 @@ footer div{
 	text-align: center;
 }
 .type-style{
+	position: relative;
 	display: block;
 	float: left;
 	width: 2.68rem;
@@ -418,18 +466,29 @@ footer div{
 	color: #A0AEB1;
 	background: none;
 }
+.type-style input[type=checkbox]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
 .big-width{
 	width: 4.26rem!important;
 }
 .putout-spacer{
-	margin-right: 1.32rem;
+	margin-right: 1.2rem;
 }
 .putout-spacerb{
-	margin-right: 2.53rem;
+	margin-right: 2.4rem;
 }
 .input-active{
 	background: #A0AEB1;
 	color: #FFFFFF;
+}
+.disapear{
+	display: none;
 }
 /*===============个人中心===================*/
 .person-set{
@@ -498,6 +557,9 @@ footer div{
 .person-detail li>a,.person-detail li>span{
 	display: block;
 	float: right;
+	margin-right: 0.64rem;
+}
+.person-detail .margin-r{
 	margin-right: 0.64rem;
 }
 .person-detail img{

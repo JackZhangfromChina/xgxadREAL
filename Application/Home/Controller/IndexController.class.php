@@ -13,14 +13,23 @@ class IndexController extends Controller {
 		$data = $class ->getlocation('114.215.113.14');
 		$data = $data['country'];
 		//echo $data;
-		$data = iconv("GB2312","UTF-8",$data);
-          
+		$data = iconv("GB2312","UTF-8",$data);  
+
+		//展示广告主页
+		$fb = M('fb');
+        $count = $fb->count();
+        $page = new \Think\Page($count,2);
+        $pageList = $page ->show();
+        $info = $fb ->order('id desc')->limit($page->firstRow.",".$page ->listRows)->select();
+        $this->assign('pagelist' , $pageList);  
+        $this->assign('info' , $info);  
 	    $this->assign('data' , $data);	
 		$this -> assign('province',$province);
 		$this -> display();
 	}
 
-    public function getAreaByAreaId(){
+    public function getAreaByAreaId()
+    {
         //接收地区id
         $pid = I('post.pid');
         //先实例化数据表模型
@@ -45,6 +54,18 @@ class IndexController extends Controller {
     	
     }
 
+    //广告细节的处理
+    public function detail()
+    {
+        $id = I('get.id');
+        $fb = M('fb');
+        $detail = $fb ->where("id=".$id)->find();
+         //dump($detail);die;
+        $this ->assign('detail' , $detail);
+
+        $this->display();
+    }
+
     public function dealfabu()
     {
         $post = I('post.');
@@ -59,17 +80,16 @@ class IndexController extends Controller {
             );
         $upload = new \Think\Upload($cfg);
         #上传
-        //var_dump($upload);die;
         $info = $upload -> uploadOne($_FILES['pic']);
-        //var_dump( UPLOAD_ROOT_PATH . $info['savepath'] . $info['savename']);die;
+        //var_dump($info);die;
         #判断上传的结果，上传失败返回false
+        
         if($info){
-            #设置表中的filepath字段
-            $post['filepath'] = UPLOAD_ROOT_PATH . $info['savepath'] . $info['savename'];
-            #设置表中的filename字段
-            $post['filename'] = $info['savename'];
-            #设置表中的hasfile字段
-            $post['hasfile'] = 1;
+            $post = array(
+                'filepath' =>UPLOAD_ROOT_PATH.$info['savepath'].$info['savename'],
+                'filename' =>$info['savename'],
+                'hasfile' => 1,
+                );
         }
         #添加操作
         $rst = $model -> add($post);
@@ -84,31 +104,64 @@ class IndexController extends Controller {
         
     }
 
+   private function deal_ad($goods_id){
+        //判断有上传图片
+        $ishave = false;
+        foreach($_FILES['goods_pics']['error'] as $k => $v){
+            //判断至少有一个上传，并且该相册是ok的
+            if($v=== 0){
+                $ishave = true;
+            }
+        }
+
+        if($ishave === true){
+            //有上传相册图片
+            //dump($_FILES);
+            //实现批量相册上传
+            $cfg = array(
+                'rootPath'      =>  WORKING_PATH . UPLOAD_ROOT_PATH , //保存根路径
+            );
+            $up = new \Think\Upload($cfg);
+            //从$_FILES里边获得goods_pics的相册信息
+            //upload($_FILES)
+            $z = $up -> upload(array($_FILES['goods_pics']));
+            //dump($z);
+
+            //遍历$z,对各个上传好的"相册"进行对应的处理
+            //要制作3幅缩略图
+            $im = new \Think\Image();
+            foreach($z as $k => $v){
+                //原图路径名
+                $yuan_path_name = $up->rootPath.$v['savepath'].$v['savename'];
+                //给原图制作缩略图
+                $im -> open($yuan_path_name);
+                $im -> thumb(800,800,6);
+                //保存制作好的缩略图
+                $b_name = $up->rootPath.$v['savepath'].'b_'.$v['savename'];
+                $im -> save($b_name);
+
+                $im -> thumb(350,350,6);
+                $m_name = $up->rootPath.$v['savepath'].'m_'.$v['savename'];
+                $im -> save($m_name); 
+
+                $im -> thumb(50,50,6);
+                $s_name = $up->rootPath.$v['savepath'].'s_'.$v['savename'];
+                $im -> save($s_name);
+                //存储3幅缩略图到数据库(sp_goods_pics)
+                $arr = array(
+                    'goods_id'=>$goods_id,
+                    'goods_pics_b' => $b_name,
+                    'goods_pics_m' => $m_name,
+                    'goods_pics_s' => $s_name,
+                );
+                D('GoodsPics')->add($arr);
+            }
+        }
+    }
     
 
-    //分页类
-     function showlist()
-     {
-        //实现数据分页效果
-        $goods = D('fb');
-        //① 获得总记录数目
-        $total = $goods-> count();  //sum()  max()  min()
-        $per = 7;//每页显示7条数据
-        
-        //② 实例化分页类对象
-        $page_obj = new \Tools\Page($total, $per);
-        
-        //③ 自定义sql语句，获得每页信息
-        $sql = "select * from sw_goods order by goods_id desc ".$page_obj->limit;
-        $info = $goods -> query($sql);
-        
-        //④ 获得页码列表
-        $pagelist = $page_obj -> fpage(array(3,4,5,6,7,8));
-        
-        $this -> assign('pagelist',$pagelist);
-        $this -> assign('info',$info);
-        $this -> display();
-    }
+    
+
 
 
 

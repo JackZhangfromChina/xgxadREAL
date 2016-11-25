@@ -15,7 +15,7 @@
 	<header>
 		<a href="#">
 			<div class="header-back">
-				南京
+				<?php echo ($data); ?>
 			</div>
 		</a>
 		<ul class="header-biaoti">
@@ -28,8 +28,39 @@
 		<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>banner.png" />
 	</div>
 	<!--广告动态盒子-->
-	<section>
+	<?php if(is_array($info)): foreach($info as $key=>$v): ?><section>
+		
 		<!--广告发布信息-->
+			<div class="title">
+				<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>vote.jpg" />
+				<div class="introduce">
+					<p>星享APP</p>
+					<p>一个有温度的分享社区</p>
+				</div>
+				<input type="button" value="未参与" class="join-button"/>
+			</div>
+			<!--广告图-->
+			<a href="<?php echo U('detail',array('id' =>$v['id']));?>" class="img-box">
+				<img src="<?php echo C('SITE_URL'); echo ($v["filepath"]); ?>" />
+			</a>
+			<!--广告具体内容-->
+			<div class="detail">
+				<p>
+					<span class="space-right">已领<b>1234</b>人</span>
+					已阅<b>12345</b>人
+					<span class="float-right"><b class="red-color space-right">￥<em>2.00</em></b>最高收益</span>
+				</p>
+				<p>
+					<span>奖励池：￥<b>2.000</b>元</span>
+					<span class="float-right">剩余：￥<b>260.60</b>元</span>
+				</p>
+			</div>
+			
+	</section><?php endforeach; endif; ?>
+<?php echo ($pagelist); ?>
+	<!-- 广告动态盒子
+	<section>
+		广告发布信息
 		<div class="title">
 			<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>vote.jpg" />
 			<div class="introduce">
@@ -38,11 +69,11 @@
 			</div>
 			<input type="button" value="未参与" class="join-button"/>
 		</div>
-		<!--广告图-->
+		广告图
 		<a href="detailspage.html" class="img-box">
 			<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>vote.jpg" />
 		</a>
-		<!--广告具体内容-->
+		广告具体内容
 		<div class="detail">
 			<p>
 				<span class="space-right">已领<b>1234</b>人</span>
@@ -55,36 +86,8 @@
 			</p>
 		</div>
 	</section>
-	<!--广告动态盒子-->
 	<section>
-		<!--广告发布信息-->
-		<div class="title">
-			<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>vote.jpg" />
-			<div class="introduce">
-				<p>星享APP</p>
-				<p>一个有温度的分享社区</p>
-			</div>
-			<input type="button" value="未参与" class="join-button"/>
-		</div>
-		<!--广告图-->
-		<a href="detailspage.html" class="img-box">
-			<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>vote.jpg" />
-		</a>
-		<!--广告具体内容-->
-		<div class="detail">
-			<p>
-				<span class="space-right">已领<b>1234</b>人</span>
-				已阅<b>12345</b>人
-				<span class="float-right"><b class="red-color space-right">￥<em>2.00</em></b>最高收益</span>
-			</p>
-			<p>
-				<span>奖励池：￥<b>2.000</b>元</span>
-				<span class="float-right">剩余：￥<b>260.60</b>元</span>
-			</p>
-		</div>
-	</section>
-	<section>
-		<!--广告发布信息-->
+		广告发布信息
 		<div class="title">
 			<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>vote.jpg" />
 			<div class="introduce">
@@ -93,11 +96,11 @@
 			</div>
 			<input type="button" value="未参与" class="join-button" />
 		</div>
-		<!--广告图-->
+		广告图
 		<a href="detailspage.html" class="img-box">
 			<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>vote.jpg" />
 		</a>
-		<!--广告具体内容-->
+		广告具体内容
 		<div class="detail">
 			<p>
 				<span class="space-right">已领<b>1234</b>人</span>
@@ -109,7 +112,7 @@
 				<span class="float-right">剩余：￥<b>260.60</b>元</span>
 			</p>
 		</div>
-	</section>
+	</section> -->
 	<div class="footerH"></div>
 	<footer>
 		<div class="iconfonts"><img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Iconfont_Shouye_h@2x.png"/></div>

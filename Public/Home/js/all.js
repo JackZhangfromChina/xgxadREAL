@@ -79,16 +79,21 @@ var isValue = localStorage.getItem("x");
 				disappear();
 			}
 			else{
-				window.location.href = "http://localhost/xgxAD/index.php/home/user/center";
+				window.location.href = "person-center.html";
 			}
 		}
 	});
 	//注册页面
 	$("#code").on("click",function(){
 		var count = 60;
-		setInterval(function(){
+		var timeout=setInterval(function(){
 			$("#code").attr("disabled",true);
 			$("#code").val(count--);
+			if(count == -1){
+				clearInterval(timeout);
+				$("#code").removeAttr("disabled");
+				$("#code").val("验证码");
+			}
 		},1000);
 	})
 	$("#next").on("click",function(){
@@ -121,3 +126,74 @@ var isValue = localStorage.getItem("x");
 			$(".show-content").hide();	
 		},2000);
 	}
+	//全选
+	$("#all-check input").on("click",function(){
+		if($(this).is(":checked"))
+	   {
+	   		$(".type-style input").attr("checked",'true');
+	   		$(".type-style").addClass("input-active");
+	    
+	   }
+	   else
+	   {
+	   		$(".type-style input").removeAttr("checked");
+	   		$(".type-style").removeClass("input-active");
+	    
+   		}
+	})
+	//单个独选
+	$(".type-style input").on("click",function(){
+		if($(this).is(":checked"))
+	   {
+	   		$(this).attr("checked",'true');
+	    	$(this).parent().addClass("input-active");
+	    
+	   }
+	   else
+	   {
+	    	$(this).removeAttr("checked");
+	   		$(this).parent().removeClass("input-active");
+	    
+   		}
+	})
+	//发布页
+	//下一步
+	$("#nextstep").on("click",function(){
+		$(".putout-start").addClass("disapear");
+		$(".putout-end").removeClass("disapear");
+	})
+	//动态生成转换
+	$(".question").on("click",function(){
+		var parents = $(this).parent();
+		createIput(parents);
+		$(this).hide();
+	})
+	$(".box-border span").on("click",function(){
+		var parents = $(this).parent();
+		createIput(parents);
+		$(this).hide();
+	})
+	$(".accunt-num").on("click",function(){
+		var parents = $(this).parent();
+		createIput(parents);
+		$(this).hide();
+	})
+	function createIput(parents){
+		var inputs = document.createElement("input");
+		inputs.type = "text";
+		inputs.placeholder = "请输入你要编写的文字";
+		parents.append(inputs);
+		
+	}
+	$(".box-border li").on("click",function(){
+		$(".box-border li").removeClass("correct-bj");
+		$(this).addClass("correct-bj");
+	})
+	//select选中值
+//	console.log($(".some-more option:selected").val());
+//	$("select").change(function(){
+//		$("select option").on("click",function(){
+//			console.log($(this).html());
+//		})
+//	})
+// console.log($('select option:selected').val())

@@ -1,0 +1,4 @@
+[ 2016-11-25T12:27:48+08:00 ] ::1 /xgxAD/index.php/Home/Index/detail.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `xgx_fb` WHERE ( id= ) LIMIT 1  
+
