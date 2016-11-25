@@ -8,7 +8,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="red" />
 		<link rel="stylesheet" type="text/css" href="<?php echo C('SITE_URL'); echo C('CSS_URL');?>all.css"/>
 		<title>登录</title>
-		<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>/common.js" type="text/javascript" charset="utf-8"></script>  
+		<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>common.js" type="text/javascript" charset="utf-8"></script>  
 	</head>
 	<body class="bj-blue">
 	<header class="login-header">
@@ -36,6 +36,6 @@
 		<p class="show-content"></p>
 	</section>
 	</body>
-	<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>/zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
-	<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>/all.js" type="text/javascript" charset="utf-8"></script>
+	<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>all.js" type="text/javascript" charset="utf-8"></script>
 </html>

@@ -13,7 +13,7 @@
 	<body class="bj-white">
 		<!--头部-->
 		<header>
-			<a href="person-center.html">
+			<a href="<?php echo U('center');?>">
 				<div class="header-back">
 					<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Head_Fanhui_bai@2x.png" />
 				</div>

@@ -12,7 +12,7 @@
 	</head>
 	<body class="bj-blue">
 	<header class="login-header">
-		<a href="#">
+		<a href="<?php echo U('center');?>">
 			<div class="header-back">
 				<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Iconfont_Fanhui_hei@2x.png" />
 			</div>

@@ -25,7 +25,7 @@
 					<li>
 						<label>手机</label>
 						<input type="text" class="lr-input telephone" placeholder="请输入用户名" />
-						<span class="clear"><img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>/Login_Shanchu@2x.png"/></span>
+						<span class="clear"><img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Login_Shanchu@2x.png"/></span>
 					</li>
 					<li>
 						<label>验证码</label>

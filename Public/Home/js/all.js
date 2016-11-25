@@ -79,7 +79,7 @@ var isValue = localStorage.getItem("x");
 				disappear();
 			}
 			else{
-				window.location.href = "person-center.html";
+				window.location.href="http://localhost/xgxAD/index.php/Home/User/center";
 			}
 		}
 	});
