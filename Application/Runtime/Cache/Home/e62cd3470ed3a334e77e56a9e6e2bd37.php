@@ -83,7 +83,7 @@
 						
 				});
 
-				  $("select").change (function ()
+				  $("ul").change (function ()
 			        {
 			             // $(this).find ("option:selected").attr ("aaa");
 			             // $(this).find ("option:selected").attr ("bbb");
@@ -93,7 +93,8 @@
 			        
 			              // alert($("#sex option:selected").val());
 			              // alert($("#age option:selected").val());
-			              $('.question').val();
+			             alert($("ul li:nth-child(1)") ) 
+
 
 			            
 
