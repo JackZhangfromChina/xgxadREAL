@@ -67,7 +67,8 @@
 					$("input:checkbox[name='interest']:checked").each(function() {
 						interest += $(this).val() + " ";
 					});
-
+					//alert($('.question input:text').val());
+					alert($('input:text').val());
 					// alert(interest);
 					// alert($('input:text').val())
 					// alert($("#province option:selected").val());
@@ -93,7 +94,8 @@
 			        
 			              // alert($("#sex option:selected").val());
 			              // alert($("#age option:selected").val());
-			             alert($("ul li:nth-child(1)") ) 
+			               //alert($('input:text').val());
+			             
 
 
 			            
@@ -103,7 +105,7 @@
 
 
 
-			        })
+			        });
 			})
 		</script>
 </head>
