@@ -67,10 +67,12 @@
 					$("input:checkbox[name='interest']:checked").each(function() {
 						interest += $(this).val() + " ";
 					});
+
+					 alert($("input[name='text']").val());
 					//alert($('.question input:text').val());
-					alert($('input:text').val());
+					//alert($('input:text').val());
 					// alert(interest);
-					// alert($('input:text').val())
+					// alert($('input:text').val());
 					// alert($("#province option:selected").val());
 					//alert($("#sex option:selected").val());
 				
@@ -84,7 +86,7 @@
 						
 				});
 
-				  $("ul").change (function ()
+				  $("ul").click(function ()
 			        {
 			             // $(this).find ("option:selected").attr ("aaa");
 			             // $(this).find ("option:selected").attr ("bbb");
@@ -94,19 +96,12 @@
 			        
 			              // alert($("#sex option:selected").val());
 			              // alert($("#age option:selected").val());
-			               //alert($('input:text').val());
-			             
-
-
-			            
-
-
-
-
-
+			             //alert($('input[type=text]').val());
 
 			        });
 			})
+
+			
 		</script>
 </head>
 <body class="bj-white">

@@ -10,7 +10,7 @@ class IndexController extends Controller {
 		//传递数据给模版展示
 		//dump($province);die;
 		$class = new \Org\Net\IpLocation('qqwry.dat');
-		$data = $class ->getlocation('114.215.113.14');
+		$data = $class ->getlocation('121.237.3.191');
 		$data = $data['country'];
 		//echo $data;
 		$data = iconv("GB2312","UTF-8",$data);  
