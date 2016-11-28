@@ -104,7 +104,7 @@ class IndexController extends Controller {
         
     }
 
-   private function deal_ad($goods_id){
+/*   private function deal_ad($goods_id){
         //判断有上传图片
         $ishave = false;
         foreach($_FILES['goods_pics']['error'] as $k => $v){
@@ -157,7 +157,7 @@ class IndexController extends Controller {
                 D('GoodsPics')->add($arr);
             }
         }
-    }
+    }*/
     
 
     

@@ -68,18 +68,17 @@
 						interest += $(this).val() + " ";
 					});
 
-					 alert($("input[name='text']").val());
+					//alert($("input[name='text']").val());
 					//alert($('.question input:text').val());
 					//alert($('input:text').val());
 					// alert(interest);
 					// alert($('input:text').val());
 					// alert($("#province option:selected").val());
 					//alert($("#sex option:selected").val());
-				
 					// $.post(url:<?php echo U('doajax');?>,
-					// 	 data: 'post', 
-					// 	 dataType:'json',
-					// 	 success:function(obj){
+					//data: 'post', 
+					//dataType:'json',
+					//success:function(obj){
 					// 	 	}
 
 					// 	 );
