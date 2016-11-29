@@ -50,10 +50,10 @@ class UserController extends Controller{
                  $this -> error('注册失败',U('register'),1);
              }
         }else{
-            $this -> display();
-         }
+                 echo  "<script>alert('验证码错误');</script>";
+             }
          }else{
-             echo  "<script>alert('验证码错误');</script>";
+             $this -> display();
          }
     }
 

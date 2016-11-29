@@ -30,7 +30,7 @@
 					</li>
 					<li>
 						<label>验证码</label>
-						<input type="text" class="lr-input" class="confirm" placeholder="请输入验证码" />
+						<input type="text" name="capture" class="lr-input" class="confirm" placeholder="请输入验证码" />
 						<span>
 							<input type="button" class="lr-yzm" name="" id="code" value="验证码" />
 						</span>

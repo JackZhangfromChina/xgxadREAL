@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e57ade3-14bd-44bf-969c-b4301884a050" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="7e57ade3-14bd-44bf-969c-b4301884a050" name="默认的" comment="默认的">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/User/register.html" afterPath="$PROJECT_DIR$/Application/Home/View/User/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/3359adbadf95118621a5c500fb3ff893.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/3359adbadf95118621a5c500fb3ff893.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Home/js/all.js" afterPath="$PROJECT_DIR$/Public/Home/js/all.js" />
     </list>
     <ignored path="thinkphp_3.2.3_full.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="UserController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="55" column="40" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="-1773">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -346,15 +343,23 @@
       <option name="presentableId" value="Default" />
       <updated>1478657628987</updated>
       <workItem from="1478657630324" duration="23000" />
-      <workItem from="1480382727683" duration="8832000" />
+      <workItem from="1480382727683" duration="9638000" />
     </task>
+    <task id="LOCAL-00001" summary="默认的">
+      <created>1480391576791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480391576791</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8855000" />
+    <option name="totallyTimeSpent" value="9661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="55" width="1562" height="1000" extended-state="0" />
+    <frame x="180" y="55" width="1562" height="1000" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22303595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -379,6 +384,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="默认的" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -451,8 +460,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="40" />
+        <state relative-caret-position="-1773">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding />
         </state>
       </provider>
