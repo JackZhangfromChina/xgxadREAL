@@ -189,7 +189,29 @@ var isValue = localStorage.getItem("x");
 		$(".box-border li").removeClass("correct-bj");
 		$(this).addClass("correct-bj");
 	})
-	//select选中值
+
+
+	$("#complete").on("click",function(){
+		$(".information-header").addClass("disapear");
+		$(".information-content").addClass("disapear");
+		$(".interest-header").removeClass("disapear");
+		$(".interest-content").removeClass("disapear");
+	})
+
+	$("#nextstep").on("click",function(){
+		$(".register-header").addClass("disapear");
+		$(".register-content").addClass("disapear");
+		$(".information-header").removeClass("disapear");
+		$(".information-content").removeClass("disapear");
+	})
+	$(".information-back").on("click",function(){
+		$(".information-header").addClass("disapear");
+		$(".information-content").addClass("disapear");
+		$(".register-header").removeClass("disapear");
+		$(".register-content").removeClass("disapear");
+	})
+
+//select选中值
 //	console.log($(".some-more option:selected").val());
 //	$("select").change(function(){
 //		$("select option").on("click",function(){
