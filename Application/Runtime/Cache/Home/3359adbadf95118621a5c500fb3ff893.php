@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo C('SITE_URL'); echo C('CSS_URL');?>all.css"/>
 		<title>注册</title>
 		<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body class="bj-blue">
 		<header class="login-header">
@@ -20,11 +21,11 @@
 			注册
 		</header>
 		<section>
-			<form action="" method="post">
+			<form action="<?php echo U('register');?>" method="post">
 				<ul class="login-box">
 					<li>
 						<label>手机</label>
-						<input type="text" class="lr-input telephone" placeholder="请输入用户名" />
+						<input type="text" class="lr-input telephone" placeholder="请输入用户名"  id="lu"/>
 						<span class="clear"><img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Login_Shanchu@2x.png"/></span>
 					</li>
 					<li>
@@ -47,4 +48,28 @@
 	</body>
 	<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
 	<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>all.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			//定义一个函数,用于完成倒计时效果
+			$("#code").click(function(){
+				var telephone = $("#lu").val();
+				//获取输入的手机号码
+				//ajax请求文件，调用短信发送的接口
+				$.ajax({
+					type:'POST',
+					url:"/xgxAD/index.php/Home/User/sendMsg",
+					data:{"telephone":telephone},
+					success:function(msg){
+						console.log(msg);
+						//判断调用短信发送接口是否成功，
+						if(msg==0){
+							//调用接口已经成功
+							alert('短信验证码已经发送成功');
+						}
+					}
+				});
+			});
+		});
+
+	</script>
 </html>
