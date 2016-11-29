@@ -121,6 +121,12 @@ class UserController extends Controller{
         $this ->display();
     }
 
+    //空操作
+    public function _empty()
+    {
+        $this ->display('Empty/error');
+    }
+
 
     
 

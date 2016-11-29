@@ -33,6 +33,12 @@ class AreaController extends Controller{
 		$this -> ajaxReturn($data);
 	}
 
+	//空操作
+	public function _empty()
+	{
+		$this ->display('Empty/error');
+	}
+
 
 	public function test1()
 	{

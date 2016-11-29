@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
@@ -27,6 +27,6 @@
 </head>
 
 <body>
-<div><img src="{:C('SITE_URL')}{:C('IMG_URL')}error.jpg"/></div>
+<div><img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>error.jpg"/></div>
 </body>
 </html>

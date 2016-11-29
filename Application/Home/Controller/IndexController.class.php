@@ -28,6 +28,12 @@ class IndexController extends Controller {
 		$this -> display();
 	}
 
+    //空操作
+    public function _empty()
+    {
+        $this ->display('Empty/error');
+    }
+
     public function getAreaByAreaId()
     {
         //接收地区id
