@@ -45,7 +45,7 @@ class UserController extends Controller{
 
 
              if($user->add($shuju)){
-                 $this -> success('注册成功,请登录邮箱激活账号',U('login'),1);
+                 $this -> success('注册成功,请登录',U('login'),1);
              }else{
                  $this -> error('注册失败',U('register'),1);
              }
@@ -130,10 +130,10 @@ class UserController extends Controller{
 
     
 
-    public function information()
-    {
-        $this ->display();
-    }
+//    public function information()
+//    {
+//        $this ->display();
+//    }
 
     public function recharge()
     {

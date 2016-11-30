@@ -38,6 +38,14 @@ header{
 	font-weight: bold;
 	background: #e92e2f;
 }
+
+img.share-img{
+	float: right!important;
+	width: 0.8rem!important;
+	height: 0.8rem!important;
+	margin-top: 1.2rem!important;
+	border-radius:0!important ;
+}
 .header-back{
 	position: absolute;
 	left: 0.64rem;
@@ -54,6 +62,10 @@ header{
 	width: 4rem;
 	height: 100%;
 	margin: 0 auto;
+}
+.bdsharebuttonbox{
+	position: relative;
+	float: right;
 }
 .header-biaoti li{
 	position: relative;

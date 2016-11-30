@@ -2,14 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e57ade3-14bd-44bf-969c-b4301884a050" name="默认的" comment="默认的">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/EmptyController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Empty/error.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/080b5a46d23ea48eda9fa52673f5f667.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/0c7835b8bb86e09cbcca7a9bb62d453d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/1223f42a89e823bf89547594651162de.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/163ef4aa4639615f1c7e79a3b5337c5a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/16c3dc11d86218aad863b148540ba675.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/1864390fad0928878af83d93bd82bf0d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/20914c0f075f91df3579ffbdf5180b02.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/3359adbadf95118621a5c500fb3ff893.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/3e0f8a51070d4640299feca130c3a8a3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/6b9e375279391657f9fac7cc0c8be7a9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/75f292a8b44fc4eea62045e5f15438fc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/7f7024f1d92f805f8140ea991edd12ff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/a3cbda95ea792ccdc0ab47f5a46c2bdb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/bfadf595de39e577d5ded8c517aa5e3a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/d17fea0cc297e9bc1e77822b7576ce57.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/d31ae1b0bf865a1e10eb310b4bd93aef.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/e62cd3470ed3a334e77e56a9e6e2bd37.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/efced94b9100c1b9807caa6e2e35bd2f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Data/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_09.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_18.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_24.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_25.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_28.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_29.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Temp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/AdController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/AdController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/AreaController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/AreaController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/WalletConteoller.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/WalletConteoller.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/detail.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/User/register.html" afterPath="$PROJECT_DIR$/Application/Home/View/User/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Home/css/all.css" afterPath="$PROJECT_DIR$/Public/Home/css/all.css" />
     </list>
     <ignored path="thinkphp_3.2.3_full.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,18 +65,8 @@
       <file leaf-file-name="AdController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AdController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="216">
               <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AreaController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AreaController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -54,9 +75,65 @@
       <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="-1860">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ECShop/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7824">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+              <folding>
+                <marker date="1464587790000" expanded="true" signature="2821:2888" ph="SELECT value... ${$ecs-&gt;table('shop_config')}" />
+                <marker date="1464587790000" expanded="true" signature="4328:4429" ph="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+                <marker date="1464587790000" expanded="true" signature="7581:7683" ph="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+                <marker date="1464587790000" expanded="true" signature="8498:8593" ph="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+                <marker date="1464587790000" expanded="true" signature="10007:10086" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1464587790000" expanded="true" signature="15768:15869" ph="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+                <marker date="1464587790000" expanded="true" signature="18200:18302" ph="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+                <marker date="1464587790000" expanded="true" signature="18745:18855" ph="SELECT * FRO... ${$ecs-&gt;table('reg_extend_info')}" />
+                <marker date="1464587790000" expanded="true" signature="19161:19304" ph="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+                <marker date="1464587790000" expanded="true" signature="22526:22656" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1464587790000" expanded="true" signature="28508:28587" ph="SELECT COUNT... ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="34426:34510" ph="SELECT order... ${$ecs-&gt;table('pay_log')}" />
+                <marker date="1464587790000" expanded="true" signature="37303:37377" ph="SELECT addre... ${$ecs-&gt;table('users')}" />
+                <marker date="1464587790000" expanded="true" signature="40410:40545" ph="SELECT COUNT... ${$ecs-&gt;table('collect_goods')}" />
+                <marker date="1464587790000" expanded="true" signature="41383:41483" ph="DELETE FROM " />
+                <marker date="1464587790000" expanded="true" signature="42554:42692" ph="SELECT COUNT... ${$ecs-&gt;table('feedback')}" />
+                <marker date="1464587790000" expanded="true" signature="42730:42831" ph="SELECT * FRO... ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="42952:43122" ph="SELECT COUNT... ${$ecs-&gt;table('feedback')}" />
+                <marker date="1464587790000" expanded="true" signature="43833:43938" ph="SELECT COUNT... ${$ecs-&gt;table('comment')}" />
+                <marker date="1464587790000" expanded="true" signature="50958:51088" ph="SELECT COUNT... ${$ecs-&gt;table('account_log')}" />
+                <marker date="1464587790000" expanded="true" signature="51417:51580" ph="SELECT * FRO... ${$ecs-&gt;table('account_log')}" />
+                <marker date="1464587790000" expanded="true" signature="52754:52880" ph="SELECT COUNT... ${$ecs-&gt;table('user_account')}" />
+                <marker date="1464587790000" expanded="true" signature="59573:59657" ph="SELECT order... ${$ecs-&gt;table('pay_log')}" />
+                <marker date="1464587790000" expanded="true" signature="62242:62383" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('collect_goods')}" />
+                <marker date="1464587790000" expanded="true" signature="62671:62834" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('collect_goods')}... " />
+                <marker date="1464587790000" expanded="true" signature="63504:63595" ph="SELECT user_... ${$ecs-&gt;table('feedback')}" />
+                <marker date="1464587790000" expanded="true" signature="63899:63982" ph="DELETE FROM " />
+                <marker date="1464587790000" expanded="true" signature="64258:64348" ph="DELETE FROM " />
+                <marker date="1464587790000" expanded="true" signature="65765:65845" ph="SELECT user_... ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="73238:73328" ph="SELECT order... ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="74105:74184" ph="SELECT COUNT... ${$ecs-&gt;table('user_bonus')}" />
+                <marker date="1464587790000" expanded="true" signature="75670:75746" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1464587790000" expanded="true" signature="76506:76858" ph="SELECT count... ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="76882:77387" ph="SELECT o.*, ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="78232:78619" ph="SELECT count... ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="78644:79177" ph="SELECT o.*, ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="83346:83416" ph="SELECT * FRO... ${$ecs-&gt;table('email_list')}" />
+                <marker date="1464587790000" expanded="true" signature="83551:83646" ph="INSERT INTO ${$ecs-&gt;table('email_list')}... " />
+                <marker date="1464587790000" expanded="true" signature="86477:86544" ph="DELETE FROM " />
+                <marker date="1464587790000" expanded="true" signature="87902:88068" ph="SELECT order... ${$ecs-&gt;table('order_info')}" />
+                <marker date="1464587790000" expanded="true" signature="90030:90127" ph="SELECT shipp... ${$ecs-&gt;table('shipping')}" />
+                <marker date="1464587790000" expanded="true" signature="91590:91700" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1464587790000" expanded="true" signature="95425:95534" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1464587790000" expanded="true" signature="98537:98647" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+                <marker date="1464587790000" expanded="true" signature="100450:100692" ph="INSERT INTO ${$ecs-&gt;table('account_log')}... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,18 +141,38 @@
       <file leaf-file-name="UserController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
+            <state relative-caret-position="120">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WalletConteoller.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WalletConteoller.class.php">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="1728">
+              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Home/css/all.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1896">
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/User/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="130" column="68" selection-start-line="130" selection-start-column="68" selection-end-line="130" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -91,41 +188,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Empty/error.html">
+      <file leaf-file-name="fabu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/fabu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="incomeDetail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/User/incomeDetail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="61" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/User/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register22.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/User/register22.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="816">
+              <caret line="34" column="25" selection-start-line="20" selection-start-column="20" selection-end-line="34" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -148,14 +215,16 @@
       <list>
         <option value="$PROJECT_DIR$/Application/index.html" />
         <option value="$PROJECT_DIR$/Public/Home/js/all.js" />
-        <option value="$PROJECT_DIR$/Application/Home/View/User/register.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/EmptyController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Empty/error.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/AreaController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/AdController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/WalletConteoller.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/detail.html" />
+        <option value="$PROJECT_DIR$/Public/Home/css/all.css" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/register.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
       </list>
     </option>
   </component>
@@ -170,10 +239,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="442" />
-    <option name="y" value="80" />
+    <option name="x" value="202" />
+    <option name="y" value="40" />
     <option name="width" value="1562" />
-    <option name="height" value="1000" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -206,8 +275,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,7 +359,47 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgxAD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgxAD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgxAD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgxAD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Runtime" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,6 +491,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgxAD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xgxAD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Empty" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -432,9 +567,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -452,6 +588,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -473,7 +615,8 @@
       <option name="presentableId" value="Default" />
       <updated>1478657628987</updated>
       <workItem from="1478657630324" duration="23000" />
-      <workItem from="1480382727683" duration="13928000" />
+      <workItem from="1480382727683" duration="22234000" />
+      <workItem from="1480465513058" duration="1136000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1480391576791</created>
@@ -486,19 +629,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13951000" />
+    <option name="totallyTimeSpent" value="23393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="442" y="80" width="1562" height="1000" extended-state="0" />
+    <frame x="202" y="40" width="1562" height="948" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22303595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22569907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -524,11 +667,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/index.html">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AdController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1896">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/fabu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="25" selection-start-line="20" selection-start-column="20" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -536,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="51" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,31 +762,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="46" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/EmptyController.php5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/EmptyController.php5" />
     <entry file="file://$PROJECT_DIR$/Application/Home/View/User/incomeDetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="61" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,6 +777,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AreaController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AdController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1896">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/income.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WalletConteoller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/fabu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="25" selection-start-line="20" selection-start-column="20" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Cache/Home/3359adbadf95118621a5c500fb3ff893.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="156" column="51" selection-start-line="156" selection-start-column="51" selection-end-line="156" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="130" column="68" selection-start-line="130" selection-start-column="68" selection-end-line="130" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -612,43 +871,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AreaController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AdController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="-1860">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
+    <entry file="file://$PROJECT_DIR$/../ECShop/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WalletConteoller.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="-7824">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <marker date="1464587790000" expanded="true" signature="2821:2888" ph="SELECT value... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1464587790000" expanded="true" signature="4328:4429" ph="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1464587790000" expanded="true" signature="7581:7683" ph="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1464587790000" expanded="true" signature="8498:8593" ph="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+            <marker date="1464587790000" expanded="true" signature="10007:10086" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1464587790000" expanded="true" signature="15768:15869" ph="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1464587790000" expanded="true" signature="18200:18302" ph="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1464587790000" expanded="true" signature="18745:18855" ph="SELECT * FRO... ${$ecs-&gt;table('reg_extend_info')}" />
+            <marker date="1464587790000" expanded="true" signature="19161:19304" ph="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+            <marker date="1464587790000" expanded="true" signature="22526:22656" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1464587790000" expanded="true" signature="28508:28587" ph="SELECT COUNT... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="34426:34510" ph="SELECT order... ${$ecs-&gt;table('pay_log')}" />
+            <marker date="1464587790000" expanded="true" signature="37303:37377" ph="SELECT addre... ${$ecs-&gt;table('users')}" />
+            <marker date="1464587790000" expanded="true" signature="40410:40545" ph="SELECT COUNT... ${$ecs-&gt;table('collect_goods')}" />
+            <marker date="1464587790000" expanded="true" signature="41383:41483" ph="DELETE FROM " />
+            <marker date="1464587790000" expanded="true" signature="42554:42692" ph="SELECT COUNT... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1464587790000" expanded="true" signature="42730:42831" ph="SELECT * FRO... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="42952:43122" ph="SELECT COUNT... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1464587790000" expanded="true" signature="43833:43938" ph="SELECT COUNT... ${$ecs-&gt;table('comment')}" />
+            <marker date="1464587790000" expanded="true" signature="50958:51088" ph="SELECT COUNT... ${$ecs-&gt;table('account_log')}" />
+            <marker date="1464587790000" expanded="true" signature="51417:51580" ph="SELECT * FRO... ${$ecs-&gt;table('account_log')}" />
+            <marker date="1464587790000" expanded="true" signature="52754:52880" ph="SELECT COUNT... ${$ecs-&gt;table('user_account')}" />
+            <marker date="1464587790000" expanded="true" signature="59573:59657" ph="SELECT order... ${$ecs-&gt;table('pay_log')}" />
+            <marker date="1464587790000" expanded="true" signature="62242:62383" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('collect_goods')}" />
+            <marker date="1464587790000" expanded="true" signature="62671:62834" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('collect_goods')}... " />
+            <marker date="1464587790000" expanded="true" signature="63504:63595" ph="SELECT user_... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1464587790000" expanded="true" signature="63899:63982" ph="DELETE FROM " />
+            <marker date="1464587790000" expanded="true" signature="64258:64348" ph="DELETE FROM " />
+            <marker date="1464587790000" expanded="true" signature="65765:65845" ph="SELECT user_... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="73238:73328" ph="SELECT order... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="74105:74184" ph="SELECT COUNT... ${$ecs-&gt;table('user_bonus')}" />
+            <marker date="1464587790000" expanded="true" signature="75670:75746" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1464587790000" expanded="true" signature="76506:76858" ph="SELECT count... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="76882:77387" ph="SELECT o.*, ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="78232:78619" ph="SELECT count... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="78644:79177" ph="SELECT o.*, ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="83346:83416" ph="SELECT * FRO... ${$ecs-&gt;table('email_list')}" />
+            <marker date="1464587790000" expanded="true" signature="83551:83646" ph="INSERT INTO ${$ecs-&gt;table('email_list')}... " />
+            <marker date="1464587790000" expanded="true" signature="86477:86544" ph="DELETE FROM " />
+            <marker date="1464587790000" expanded="true" signature="87902:88068" ph="SELECT order... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1464587790000" expanded="true" signature="90030:90127" ph="SELECT shipp... ${$ecs-&gt;table('shipping')}" />
+            <marker date="1464587790000" expanded="true" signature="91590:91700" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1464587790000" expanded="true" signature="95425:95534" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1464587790000" expanded="true" signature="98537:98647" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1464587790000" expanded="true" signature="100450:100692" ph="INSERT INTO ${$ecs-&gt;table('account_log')}... " />
+          </folding>
         </state>
       </provider>
     </entry>
