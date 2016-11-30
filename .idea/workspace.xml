@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7e57ade3-14bd-44bf-969c-b4301884a050" name="默认的" comment="默认的">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/fabu.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/fabu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/e62cd3470ed3a334e77e56a9e6e2bd37.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/e62cd3470ed3a334e77e56a9e6e2bd37.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_30.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_30.log" />
     </list>
     <ignored path="thinkphp_3.2.3_full.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,6 +94,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jack" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -530,7 +531,7 @@
       <updated>1478657628987</updated>
       <workItem from="1478657630324" duration="23000" />
       <workItem from="1480382727683" duration="22234000" />
-      <workItem from="1480465513058" duration="22259000" />
+      <workItem from="1480465513058" duration="22292000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1480391576791</created>
@@ -539,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480391576791</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="默认的">
+      <created>1480496894818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480496894818</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44516000" />
+    <option name="totallyTimeSpent" value="44549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
