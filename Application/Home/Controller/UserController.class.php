@@ -15,7 +15,8 @@ class UserController extends Controller{
             //dump($user);die;
             $shuju = $user ->create();
             //dump($_POST);die;
-            $userInfo = $user ->where(array('telephone' => $shuju['telephone'],'password' =>md5($shuju['password'])))->find();
+            $userInfo = $user ->where(array('telephone' => $shuju['telephone'],'password' =>md5($shuju['password'])))
+                                ->find();
             //dump($userInfo);die;
             if($userInfo){
                 //持久化数据
@@ -23,7 +24,7 @@ class UserController extends Controller{
                 session('id' , $userInfo['id']);
                 session('nickname' , $userInfo['nickname']);
                 //跳转
-                $this ->redirect('Index/index');
+                $this ->redirect('User/center');
             }else{
                 echo "用户名或密码错误";
             }

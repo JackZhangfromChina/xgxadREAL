@@ -113,3 +113,117 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2016-11-30T15:33:00+08:00 ] ::1 /xgxAD/index.php/Home/User/sendMsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\xgxAD\Application\Home\Controller\UserController.class.php 第 76 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-30T15:57:42+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 4  [ RunTime:0.0030s ]
+
+[ 2016-11-30T15:57:45+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 55  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:12:18+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 2  [ RunTime:0.0060s ]
+
+[ 2016-11-30T16:12:22+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 52  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:13:06+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 4  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:13:18+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 53  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:14:05+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 16  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:14:15+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 220  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:14:43+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 221  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:14:45+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 3  [ RunTime:0.0050s ]
+
+[ 2016-11-30T16:14:48+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 2  [ RunTime:0.0040s ]
+
+[ 2016-11-30T16:14:52+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 4  [ RunTime:0.0040s ]
+
+[ 2016-11-30T16:14:57+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 2  [ RunTime:0.0040s ]
+
+[ 2016-11-30T16:16:09+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 16  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:16:11+08:00 ] ::1 /xgxAD/index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 220  [ RunTime:0.0050s ]
+
