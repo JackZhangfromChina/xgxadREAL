@@ -11,14 +11,17 @@ class UserController extends Controller{
     {
         //和注册一样分为2个逻辑，一个是没有post数据，显示登录页面，另一个进入程序
         if(IS_POST){
-            $user =D('user');
+            $user =M('user');
+            //dump($user);die;
             $shuju = $user ->create();
-            $userInfo = $user ->where(array('phone' => $shuju['phone_num'],'password' =>$userInfo['pwd']))->find();
+            //dump($_POST);die;
+            $userInfo = $user ->where(array('telephone' => $shuju['telephone'],'password' =>$shuju['password']))->find();
+            //dump($userInfo);die;
             if($userInfo){
                 //持久化数据
                 //echo 11;die;
                 session('id' , $userInfo['id']);
-                session('name' , $userInfo['name']);
+                session('nickname' , $userInfo['nickname']);
                 //跳转
                 $this ->redirect('Index/index');
             }else{
@@ -38,23 +41,33 @@ class UserController extends Controller{
     public function register()
     {
         $user = M('user');
+
          if(IS_POST){
-             $shuju = $user -> create();
+             $shuju = $user ->create();
              $shuju['add_time'] = time();
-             if($shuju['capture'] ==$_SESSION['verify']){
-
-
+             $shuju['interest'] = implode(" " ,$this ->doAjax());
+             $shuju['password'] = md5($shuju['password'])+random();
+             //dump($shuju);die;
+             if($_POST['capture'] ==$_SESSION['verify']){
              if($user->add($shuju)){
                  $this -> success('注册成功,请登录',U('login'),1);
              }else{
                  $this -> error('注册失败',U('register'),1);
              }
         }else{
+                 //dump($shuju['capture']);die;
                  echo  "<script>alert('验证码错误');</script>";
              }
          }else{
+            //dump($_SESSION['verify']);die;
              $this -> display();
          }
+    }
+
+    public function doAjax()
+    {
+        return $interest = $_POST['interest'];
+
     }
 
     public function sendMsg()
