@@ -15,7 +15,7 @@ class UserController extends Controller{
             //dump($user);die;
             $shuju = $user ->create();
             //dump($_POST);die;
-            $userInfo = $user ->where(array('telephone' => $shuju['telephone'],'password' =>$shuju['password']))->find();
+            $userInfo = $user ->where(array('telephone' => $shuju['telephone'],'password' =>md5($shuju['password'])))->find();
             //dump($userInfo);die;
             if($userInfo){
                 //持久化数据
@@ -46,7 +46,7 @@ class UserController extends Controller{
              $shuju = $user ->create();
              $shuju['add_time'] = time();
              $shuju['interest'] = implode(" " ,$this ->doAjax());
-             $shuju['password'] = md5($shuju['password'])+random();
+             $shuju['password'] = md5($shuju['password']);
              //dump($shuju);die;
              if($_POST['capture'] ==$_SESSION['verify']){
              if($user->add($shuju)){
