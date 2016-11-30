@@ -16,7 +16,7 @@ class UserController extends Controller{
             $userInfo = $user ->where(array('phone' => $shuju['phone_num'],'password' =>$userInfo['pwd']))->find();
             if($userInfo){
                 //持久化数据
-                echo 11;die;
+                //echo 11;die;
                 session('id' , $userInfo['id']);
                 session('name' , $userInfo['name']);
                 //跳转
@@ -89,7 +89,7 @@ class UserController extends Controller{
             $flag = 1; 
         } 
         $url = "http://web.1xinxi.cn/asmx/smsservice.aspx?".$params; //提交的url地址
-        $con= substr( file_get_contents($url), 0, 1 );  //获取信息发送后的状态
+        $con= substr(file_get_contents($url),0, 1 );  //获取信息发送后的状态
         
         echo $con;
    }

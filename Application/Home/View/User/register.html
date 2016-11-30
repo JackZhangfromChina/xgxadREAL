@@ -150,7 +150,7 @@
 			//定义一个函数,用于完成倒计时效果
 			$("#code").click(function(){
 				//获取输入的手机号码
-				var telephone = $("#telphone").val();
+				var telephone = $("#telephone").val();
 				//ajax请求文件，调用短信发送的接口
 				$.ajax({
 					type:'POST',
