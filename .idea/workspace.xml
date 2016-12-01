@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e57ade3-14bd-44bf-969c-b4301884a050" name="默认的" comment="默认的">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/fabu.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/fabu.html" />
     </list>
     <ignored path="thinkphp_3.2.3_full.iws" />
@@ -34,12 +35,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <folding>
+                <marker date="1480564214720" expanded="true" signature="1398:1444" ph="update xgx_a... " />
+                <marker date="1480564214720" expanded="true" signature="1398:1451" ph="update xgx_a... " />
+                <marker date="1480564214720" expanded="true" signature="1398:1471" ph="update xgx_a... " />
+                <marker date="1480564214720" expanded="true" signature="1672:1749" ph="insert into xgx_question... " />
+                <marker date="1480564214720" expanded="true" signature="1768:1874" ph="insert into xgx_answer... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fabu.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fabu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/fabu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+            <state relative-caret-position="411">
+              <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -112,12 +119,12 @@
         <option value="$PROJECT_DIR$/Application/Home/Controller/WalletConteoller.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/detail.html" />
         <option value="$PROJECT_DIR$/Public/Home/css/all.css" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/User/register.html" />
         <option value="$PROJECT_DIR$/Public/Home/js/all.js" />
         <option value="$PROJECT_DIR$/Application/Home/View/User/login.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/fabu.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
       </list>
     </option>
   </component>
@@ -537,7 +544,7 @@
       <updated>1478657628987</updated>
       <workItem from="1478657630324" duration="23000" />
       <workItem from="1480382727683" duration="22234000" />
-      <workItem from="1480465513058" duration="29169000" />
+      <workItem from="1480465513058" duration="35615000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1480391576791</created>
@@ -557,7 +564,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51426000" />
+    <option name="totallyTimeSpent" value="57872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -617,7 +624,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding />
+          <folding>
+            <marker date="1480564214720" expanded="true" signature="1398:1444" ph="update xgx_a... " />
+            <marker date="1480564214720" expanded="true" signature="1398:1451" ph="update xgx_a... " />
+            <marker date="1480564214720" expanded="true" signature="1398:1471" ph="update xgx_a... " />
+            <marker date="1480564214720" expanded="true" signature="1672:1749" ph="insert into xgx_question... " />
+            <marker date="1480564214720" expanded="true" signature="1768:1874" ph="insert into xgx_answer... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,14 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/User/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -900,9 +905,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/fabu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+        <state relative-caret-position="411">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <marker date="1480564214720" expanded="true" signature="1398:1444" ph="update xgx_a... " />
+            <marker date="1480564214720" expanded="true" signature="1398:1451" ph="update xgx_a... " />
+            <marker date="1480564214720" expanded="true" signature="1398:1471" ph="update xgx_a... " />
+            <marker date="1480564214720" expanded="true" signature="1672:1749" ph="insert into xgx_question... " />
+            <marker date="1480564214720" expanded="true" signature="1768:1874" ph="insert into xgx_answer... " />
+          </folding>
         </state>
       </provider>
     </entry>
