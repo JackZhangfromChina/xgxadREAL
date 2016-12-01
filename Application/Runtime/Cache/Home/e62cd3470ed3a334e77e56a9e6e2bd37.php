@@ -101,8 +101,10 @@
 				$('#district').on('change' ,function(){
 					alert($(this).val());
 				});
-				$('.correct_bj input').on('blur' ,function(){
+				$('.correct_bj').on('blur','input',function(){
 					alert($(this).val());
+
+
 				});
 
 
@@ -122,6 +124,11 @@
 			        });
 			})
 
+			$('.correct_bj').on('blur','input',function(){
+				alert($(this).val());
+
+
+			});
 			
 		</script>
 </head>

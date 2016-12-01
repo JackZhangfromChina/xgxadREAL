@@ -79,7 +79,7 @@ var isValue = localStorage.getItem("x");
 				disappear();
 			}
 			else{
-				window.location.href="";
+				window.location.href="http://localhost/xgxAD/index.php/Home/User/center";
 			}
 		}
 	});
@@ -117,7 +117,7 @@ var isValue = localStorage.getItem("x");
 				disappear();
 			}
 			else{
-				window.location.href = "javascript:;";
+				window.location.href = "http://localhost/xgxAD/index.php/Home/User/sendMsg";
 			}
 		}
 	});
@@ -170,7 +170,8 @@ var isValue = localStorage.getItem("x");
 	})
 	$(".box-border span").on("click",function(){
 		var parents = $(this).parent();
-		createIput(parents);
+        var id = parents.attr('id');
+		createIput(parents, id );
 		$(this).hide();
 	})
 	$(".accunt-num").on("click",function(){
@@ -178,40 +179,23 @@ var isValue = localStorage.getItem("x");
 		createIput(parents);
 		$(this).hide();
 	})
-	function createIput(parents){
+	function createIput(parents,id){
 		var inputs = document.createElement("input");
 		inputs.type = "text";
+        inputs.name = id;
 		inputs.placeholder = "请输入你要编写的文字";
 		parents.append(inputs);
 		
 	}
 	$(".box-border li").on("click",function(){
 		$(".box-border li").removeClass("correct-bj");
+        var hid = $(this).attr('id');
+        console.log(hid);
+        $("#answercorrect").val(hid);
+        //console.log(hid);
 		$(this).addClass("correct-bj");
 	})
-
-
-	$("#complete").on("click",function(){
-		$(".information-header").addClass("disapear");
-		$(".information-content").addClass("disapear");
-		$(".interest-header").removeClass("disapear");
-		$(".interest-content").removeClass("disapear");
-	})
-
-	$("#nextstep").on("click",function(){
-		$(".register-header").addClass("disapear");
-		$(".register-content").addClass("disapear");
-		$(".information-header").removeClass("disapear");
-		$(".information-content").removeClass("disapear");
-	})
-	$(".information-back").on("click",function(){
-		$(".information-header").addClass("disapear");
-		$(".information-content").addClass("disapear");
-		$(".register-header").removeClass("disapear");
-		$(".register-content").removeClass("disapear");
-	})
-
-//select选中值
+	//select选中值
 //	console.log($(".some-more option:selected").val());
 //	$("select").change(function(){
 //		$("select option").on("click",function(){
