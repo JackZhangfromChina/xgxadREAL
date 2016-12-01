@@ -67,11 +67,25 @@
 					$("input:checkbox[name='interest']:checked").each(function() {
 						interest += $(this).val() + " ";
 					});
-					$("#answer1 :input").val();
-					$("#answer2 :input").val();
-					$("#answer3 :input").val();
-					$("#question :input").val();
-					alert($("#answercorrect").val());
+					var answer1 = "";
+					var answer2 = "";
+					var answer3 = "";
+					var question= "";
+					var answercorrect = "";
+					answer1 = $("#answer1 :input").val();
+					answer2 = $("#answer2 :input").val();
+					answer3 = $("#answer3 :input").val();
+					question = $("#question :input").val();
+					answercorrect = alert($("#answercorrect").val());
+					$.post('/xgxAD/index.php/Home/Index/doAjax',
+							{"answer1":answer1,"answer2":answer2,
+						     "answer3":answer3,"question":question,
+								"answercorrect": answercorrect},
+							function(msg){
+								console.log(msg);
+							});
+
+				});
 
 					//alert($("input[name='text']").val());
 					//alert($('.question input:text').val());
@@ -81,31 +95,30 @@
 					// alert($("#province option:selected").val());
 					//alert($("#sex option:selected").val());
 					// $.post(url:<?php echo U('doajax');?>,
-					//data: 'post', 
+					//data: 'post',
 					//dataType:'json',
 					//success:function(obj){
 					// 	 	}
 
 					// 	 );
-						
-				});
+				//});
 
-				  $("ul").click(function ()
+				  /*$("ul").click(function ()
 			        {
 			             // $(this).find ("option:selected").attr ("aaa");
 			             // $(this).find ("option:selected").attr ("bbb");
 			             // $('#province').val();
 			             // $('#city').val();
 			             // $('#district').val();
-			        
+
 			              // alert($("#sex option:selected").val());
 			              // alert($("#age option:selected").val());
 			             //alert($('input[type=text]').val());
 
-			        });
-			})
+			        });*/
+			});
 
-			
+
 		</script>
 </head>
 <body class="bj-white">
@@ -233,8 +246,9 @@
 				<input type="checkbox" name="interest" value="zhibo"/>
 			</a>
 			<input type="submit" value="提交"  class="button-style"/>
-		</form>
+
 </section>
+</form>
 </body>
 <script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>all.js" type="text/javascript" charset="utf-8"></script>

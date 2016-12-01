@@ -13,7 +13,7 @@ class IndexController extends Controller {
 		$data = $class ->getlocation('121.237.3.191');
 		$data = $data['country'];
 		//echo $data;
-		$data = iconv("GB2312","UTF-8",$data);  
+		$data = iconv("GB2312","UTF-8",$data);
 
 		//展示广告主页
 		$fb = M('fb');
@@ -42,7 +42,7 @@ class IndexController extends Controller {
         $question = I('post.question');
         $questioncorrect = I('post.answercorrect');
         if($questioncorrect==$answer1){
-            $sql = "update xgx_answer set isright=1 where answer1=$answer1 and question_id = $qid";
+            $sql = "update xgx_answer set isright=1 where answer1=$answer1 and question_id = $qid";  
         }
         if($questioncorrect==$answer2){
             //update answer2
@@ -51,12 +51,12 @@ class IndexController extends Controller {
         }
 
         //完成重要的一步
-        $sql1 = "insert into xgx_question (question,uid,add_time) values($question,uid,time())";
+        $sql1 = "insert into xgx_question (question,uid,add_time) values($question,uid,time())"; 
         $sql = "insert into xgx_answer(question_id,answer1,answer2,answer3) values(question_id,$answer1,$answer2,$answer3)";
         //$sql = "update xgx_answer where question =$questioncorrect";
     }
     //空操作
-    public function _empty()
+    public function _empty() //魔法方法？？
     {
         $this ->display('Empty/error');
     }
