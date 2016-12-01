@@ -67,10 +67,11 @@
 					$("input:checkbox[name='interest']:checked").each(function() {
 						interest += $(this).val() + " ";
 					});
-					alert($("#answer1 :input").val());
-					alert($("#answer2 :input").val());
-					alert($("#answer3 :input").val());
-					alert($("#question :input").val());
+					$("#answer1 :input").val();
+					$("#answer2 :input").val();
+					$("#answer3 :input").val();
+					$("#question :input").val();
+					alert($("#answercorrect").val());
 
 					//alert($("input[name='text']").val());
 					//alert($('.question input:text').val());

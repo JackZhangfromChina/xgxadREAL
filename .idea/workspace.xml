@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e57ade3-14bd-44bf-969c-b4301884a050" name="默认的" comment="默认的">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/fabu.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/fabu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/e62cd3470ed3a334e77e56a9e6e2bd37.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/e62cd3470ed3a334e77e56a9e6e2bd37.php" />
     </list>
     <ignored path="thinkphp_3.2.3_full.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +67,8 @@
       <file leaf-file-name="fabu.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/fabu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="143" column="51" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="51" />
+            <state relative-caret-position="303">
+              <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -540,7 +537,7 @@
       <updated>1478657628987</updated>
       <workItem from="1478657630324" duration="23000" />
       <workItem from="1480382727683" duration="22234000" />
-      <workItem from="1480465513058" duration="28534000" />
+      <workItem from="1480465513058" duration="29169000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1480391576791</created>
@@ -560,7 +557,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50791000" />
+    <option name="totallyTimeSpent" value="51426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -903,8 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/fabu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="143" column="51" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="51" />
+        <state relative-caret-position="303">
+          <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
           <folding />
         </state>
       </provider>
