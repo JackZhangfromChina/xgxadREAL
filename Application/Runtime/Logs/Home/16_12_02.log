@@ -1,0 +1,9 @@
+[ 2016-12-02T12:56:38+08:00 ] ::1 /xgxAD/index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: qid D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
