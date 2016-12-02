@@ -20,22 +20,24 @@
 			</a>
 			充值
 		</header>
-		<p class="recharge-num">金额：￥<b>500</b></p>
-		<h4 class="recharge-title">选择充值方式</h4>
-		<ul class="recharge-type">
-			<li>
-				<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Iconfont_Zhifubao@2x.png" />
-				<b>支付宝</b>
-				<span class="choose"></span>
-			</li>
-			<li>
-				<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Iconfont_Weixin@2x.png" />
-				<b>微信支付</b>
-				<span></span>
-			</li>
-			<input type="text" placeholder="请输入支付宝/微信帐号" />
-		</ul>
-		<input type="button" value="确认充值" class="money-button bg-red"/>
+		<form method="post" action="">
+			<p class="recharge-num">金额：￥<b>500</b></p>
+			<h4 class="recharge-title">选择充值方式</h4>
+			<ul class="recharge-type">
+				<li>
+					<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Iconfont_Zhifubao@2x.png" />
+					<b>支付宝</b>
+					<span class="choose"></span>
+				</li>
+				<!--<li>
+					<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Iconfont_Weixin@2x.png" />
+					<b>微信支付</b>
+					<span></span>
+				</li>-->
+				<input type="text" placeholder="请输入支付宝帐号" name="" />
+			</ul>
+			<input type="submit" value="确认充值" class="money-button bg-red"/>
+		</form>
 	</body>
 	<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
 	<script src="<?php echo C('SITE_URL'); echo C('JS_URL');?>all.js" type="text/javascript" charset="utf-8"></script>

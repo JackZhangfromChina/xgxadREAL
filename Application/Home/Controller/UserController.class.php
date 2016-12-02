@@ -26,7 +26,7 @@ class UserController extends Controller{
                 //跳转
                 $this ->redirect('User/center');
             }else{
-                echo "用户名或密码错误";
+                $this ->error("用户名或密码错误",U('User/login'));
             }
         }else{ 
             $this ->display();
@@ -151,7 +151,11 @@ class UserController extends Controller{
 
     public function recharge()
     {
-        $this ->display();
+
+
+            $this ->display();
+
+       
     }
 
     public function walletDetail()
@@ -168,6 +172,8 @@ class UserController extends Controller{
     {
         $this ->display();
     }
+
+    
 
 
 

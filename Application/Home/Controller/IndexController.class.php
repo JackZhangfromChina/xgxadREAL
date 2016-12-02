@@ -36,24 +36,33 @@ class IndexController extends Controller {
     //处理ajax发来的各种数据
     public  function doAjax()
     {
-        $answer1 = I('post.answer1');
-        $answer2 = I('post.answer2');
-        $answer3 = I('post.answer3');
+
+        $data['answer1'] = I('post.answer1');
+        //echo $answer1;
+        $data['answer2'] = I('post.answer2');
+        $data['answer3'] = I('post.answer3');
         $question = I('post.question');
         $questioncorrect = I('post.answercorrect');
+        $question = M('question');
+        $answer = M('answer');
+
+        $qInfo= $question->field('question')->add();
+        $aInfo= $answer->field(array('answer1','answer2','answer3' ))->data('$data')->add();
         if($questioncorrect==$answer1){
-            $sql = "update xgx_answer set isright=1 where answer1=$answer1 and question_id = $qid";  
+            $answer->field(array('answer1' => 1))->save();
         }
         if($questioncorrect==$answer2){
-            //update answer2
+            $answer->field(array('answer2' => 1))->save();
         }if($questioncorrect==$answer3){
-           //update answer3
+            $answer->field(array('answer3' => 1))->save();
         }
+        //echo $answer1;
+        //echo 22;
 
         //完成重要的一步
-        $sql1 = "insert into xgx_question (question,uid,add_time) values($question,uid,time())"; 
-        $sql = "insert into xgx_answer(question_id,answer1,answer2,answer3) values(question_id,$answer1,$answer2,$answer3)";
-        //$sql = "update xgx_answer where question =$questioncorrect";
+
+
+
     }
     //空操作
     public function _empty() //魔法方法？？

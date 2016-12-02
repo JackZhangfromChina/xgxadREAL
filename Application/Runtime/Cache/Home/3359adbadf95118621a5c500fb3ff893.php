@@ -55,7 +55,7 @@
 						<input type="text"class="lr-input password" id="pwd" name="password" placeholder="请创建不少于6位密码" />
 						<span><img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Login_Biyan@2x.png" class="lr-img"/></span>
 					</li>
-					<input type="button" class="lr-button" id="nextstep" value="下一步" />
+					<input type="button" class="lr-button" id="next" value="下一步" />
 				</ul>
 
 			<p class="show-content"></p>
@@ -156,7 +156,7 @@
 				//ajax请求文件，调用短信发送的接口
 				$.ajax({
 					type:'POST',
-					url:'/xgxAD/index.php/Home/User/sendMsg',
+					url:'/index.php/Home/User/sendMsg',
 					data:{"telephone":telephone},
 					success:function(msg){
 						//alert(msg);
@@ -181,7 +181,7 @@
 					interest += $(this).val() + " ";
 				});
 				$.ajax({
-					url:"/xgxAD/index.php/Home/User/doAjax",
+					url:"/index.php/Home/User/doAjax",
 					type:"post",
 					data:{"interest":interest},
 					success:function(){

@@ -73,16 +73,17 @@
 					var question= "";
 					var answercorrect = "";
 					answer1 = $("#answer1 :input").val();
+					//alert(answer1);
 					answer2 = $("#answer2 :input").val();
 					answer3 = $("#answer3 :input").val();
 					question = $("#question :input").val();
-					answercorrect = alert($("#answercorrect").val());
-					$.post('/xgxAD/index.php/Home/Index/doAjax',
+					// alert($("#answercorrect").val());
+					$.post('/index.php/Home/Index/doAjax',
 							{"answer1":answer1,"answer2":answer2,
 						     "answer3":answer3,"question":question,
 								"answercorrect": answercorrect},
 							function(msg){
-								console.log(msg);
+								//alert(msg);
 							});
 
 				});
