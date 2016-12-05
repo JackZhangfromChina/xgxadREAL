@@ -31,12 +31,10 @@ if($verify_result) {//验证成功
 	
     //获取支付宝的通知返回参数，可参考技术文档中服务器异步通知参数列表
 	
-	//商户订单号
-
+	//商户订单号
 	$out_trade_no = $_POST['out_trade_no'];
 
-	//支付宝交易号
-
+	//支付宝交易号
 	$trade_no = $_POST['trade_no'];
 
 	//交易状态
@@ -44,19 +42,6 @@ if($verify_result) {//验证成功
 
 
     if($_POST['trade_status'] == 'TRADE_FINISHED') {
-        start transaction开启事务
-        $sqla = "修改订单状态为付款";
-        $sqlb = "给用户添加一个付款记录信息";
-        $sqlc = "其他业务逻辑处理";
-
-        $z1 = mysql_query($sqla);
-        $z2 = mysql_query($sqlb);
-        $z3 = mysql_query($sqlc);
-        if($z1 && $z2  && $z3){
-            commit()提交事务
-        }else{
-            rollback()回滚事务
-        }
 		//判断该笔订单是否在商户网站中已经做过处理
 			//如果没有做过处理，根据订单号（out_trade_no）在商户网站的订单系统中查到该笔订单的详细，并执行商户的业务程序
 			//请务必判断请求时的total_fee、seller_id与通知时获取的total_fee、seller_id为一致的
@@ -69,20 +54,6 @@ if($verify_result) {//验证成功
         //logResult("这里写入想要调试的代码变量值，或其他运行的结果记录");
     }
     else if ($_POST['trade_status'] == 'TRADE_SUCCESS') {
-        start transaction开启事务
-        $sqla = "修改订单状态为付款";
-        $sqlb = "给用户添加一个付款记录信息";
-        $sqlc = "其他业务逻辑处理";
-
-        $z1 = mysql_query($sqla);
-        $z2 = mysql_query($sqlb);
-        $z3 = mysql_query($sqlc);
-        if($z1 && $z2  && $z3){
-            commit()提交事务
-
-        }else{
-            rollback()回滚事务
-        }
 		//判断该笔订单是否在商户网站中已经做过处理
 			//如果没有做过处理，根据订单号（out_trade_no）在商户网站的订单系统中查到该笔订单的详细，并执行商户的业务程序
 			//请务必判断请求时的total_fee、seller_id与通知时获取的total_fee、seller_id为一致的

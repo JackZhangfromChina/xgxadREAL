@@ -10,7 +10,7 @@
  * 该代码仅供学习和研究支付宝接口使用，只是提供一个参考。
  */
 require_once("alipay_core.function.php");
-require_once("alipay_md5.function.php");
+require_once("alipay_rsa.function.php");
 
 class AlipaySubmit {
 
@@ -38,8 +38,8 @@ class AlipaySubmit {
 		
 		$mysign = "";
 		switch (strtoupper(trim($this->alipay_config['sign_type']))) {
-			case "MD5" :
-				$mysign = md5Sign($prestr, $this->alipay_config['key']);
+			case "RSA" :
+				$mysign = rsaSign($prestr, $this->alipay_config['private_key']);
 				break;
 			default :
 				$mysign = "";
@@ -102,48 +102,13 @@ class AlipaySubmit {
         }
 
 		//submit按钮控件请不要含有name属性
-        $sHtml = $sHtml."<input type='submit' value='".$button_name."'></form>";
+        $sHtml = $sHtml."<input type='submit'  value='".$button_name."' style='display:none;'></form>";
 		
 		$sHtml = $sHtml."<script>document.forms['alipaysubmit'].submit();</script>";
 		
 		return $sHtml;
 	}
 	
-	/**
-     * 建立请求，以模拟远程HTTP的POST请求方式构造并获取支付宝的处理结果
-     * @param $para_temp 请求参数数组
-     * @return 支付宝处理结果
-     */
-	function buildRequestHttp($para_temp) {
-		$sResult = '';
-		
-		//待请求参数数组字符串
-		$request_data = $this->buildRequestPara($para_temp);
-
-		//远程获取数据
-		$sResult = getHttpResponsePOST($this->alipay_gateway_new, $this->alipay_config['cacert'],$request_data,trim(strtolower($this->alipay_config['input_charset'])));
-
-		return $sResult;
-	}
-	
-	/**
-     * 建立请求，以模拟远程HTTP的POST请求方式构造并获取支付宝的处理结果，带文件上传功能
-     * @param $para_temp 请求参数数组
-     * @param $file_para_name 文件类型的参数名
-     * @param $file_name 文件完整绝对路径
-     * @return 支付宝返回处理结果
-     */
-	function buildRequestHttpInFile($para_temp, $file_para_name, $file_name) {
-		
-		//待请求参数数组
-		$para = $this->buildRequestPara($para_temp);
-		$para[$file_para_name] = "@".$file_name;
-		
-		//远程获取数据
-		$sResult = getHttpResponsePOST($this->alipay_gateway_new, $this->alipay_config['cacert'],$para,trim(strtolower($this->alipay_config['input_charset'])));
-
-		return $sResult;
-	}
 	
 	/**
      * 用于防钓鱼，调用接口query_timestamp来获取时间戳的处理函数

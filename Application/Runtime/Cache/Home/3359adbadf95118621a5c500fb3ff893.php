@@ -156,7 +156,7 @@
 				//ajax请求文件，调用短信发送的接口
 				$.ajax({
 					type:'POST',
-					url:'/index.php/Home/User/sendMsg',
+					url:'/xgxAD/index.php/Home/User/sendMsg',
 					data:{"telephone":telephone},
 					success:function(msg){
 						//alert(msg);
@@ -181,7 +181,7 @@
 					interest += $(this).val() + " ";
 				});
 				$.ajax({
-					url:"/index.php/Home/User/doAjax",
+					url:"/xgxAD/index.php/Home/User/doAjax",
 					type:"post",
 					data:{"interest":interest},
 					success:function(){

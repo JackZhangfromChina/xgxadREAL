@@ -30,7 +30,7 @@
 				<input type="submit" class="lr-button" id="login" value="登录" />
 				<p>
 					<a href="register.html" class="red-color">立即注册</a>
-					<a href="modityPwd.html" class="gray-color">忘记密码？</a></p>
+					<a href="modifyPwd.html" class="gray-color">忘记密码？</a></p>
 			</ul>
 		<p class="show-content"></p>
 		</form>

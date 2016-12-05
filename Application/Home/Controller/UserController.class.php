@@ -65,15 +65,45 @@ class UserController extends Controller{
          }
     }
 
+    //修改密码
+    public function modifyPwd()
+    {
+        if(IS_POST){
+            //echo 11;die;
+            $capture = I('post.capture');
+            $telephone = I('post.telephone');
+            $data['password'] = md5(I('post.password'));
+            //echo $telephone;die;
+            //echo $_SESSION['verify'];die;
+            //echo $capture;die;
+            //验证码的双重验证，必须非空切相等才可以不然bug到处都是
+            if($_SESSION['verify'] == $capture && !empty($_SESSION['verify']) && !empty($capture)){
+                $user = M('user');
+                $info = $user ->where("telephone=$telephone")->save($data);
+                if($info){
+                    $this->success('ok',U('center'),1);
+                }else{
+                    $this->error('wrong',U('modifyPwd'),1);
+                }
+            }else{
+                $this ->error('22',U('modifyPwd'),1);
+            }
+           
+        }else{
+             $this ->display(); 
+        }
+       
+    }
+
     public function doAjax()
     {
         return $interest = $_POST['interest'];
 
     }
 
-    public function sendMsg()
+    public function SendMsg()
     {
-        //echo "ok";die;
+        //echo 'OK';die;
         session_start();
         $flag = 0; 
         $params='';//要post的数据 
@@ -151,9 +181,34 @@ class UserController extends Controller{
 
     public function recharge()
     {
+        if(IS_POST){
 
 
+            $info['order_number']="xgx_".date("YmdHis")."_".mt_rand(1000,9999);
+            $order_number = $info['order_number'];
+            $order_price = I('post.money');
+            $fm = <<<eof
+        <form action="/application/Common/Plugin/alipay/alipayapi.php" method="post">
+            <input type="hidden" name="WIDout_trade_no" value="$order_number" />
+            <input type="hidden" name="WIDsubject" value="广告充值" />
+            <input type="hidden" name="WIDtotal_fee" value="$order_price" />
+            <input type="hidden" name="WIDbody" value="" />
+            <input type="hidden" name="WIDshow_url" value="" />
+        </form>
+        <script type="text/javascript">
+            document.getElementsByTagName('form')[0].submit();
+        </script>
+eof;
+            echo $fm;
+
+
+
+        }else{
             $this ->display();
+        }
+
+
+
 
        
     }

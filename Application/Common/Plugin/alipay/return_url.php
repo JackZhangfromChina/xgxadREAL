@@ -31,12 +31,10 @@ if($verify_result) {//验证成功
 	//——请根据您的业务逻辑来编写程序（以下代码仅作参考）——
     //获取支付宝的通知返回参数，可参考技术文档中页面跳转同步通知参数列表
 
-	//商户订单号
-
+	//商户订单号
 	$out_trade_no = $_GET['out_trade_no'];
 
-	//支付宝交易号
-
+	//支付宝交易号
 	$trade_no = $_GET['trade_no'];
 
 	//交易状态
@@ -44,7 +42,6 @@ if($verify_result) {//验证成功
 
 
     if($_GET['trade_status'] == 'TRADE_FINISHED' || $_GET['trade_status'] == 'TRADE_SUCCESS') {
-        做订单支付成功后的页面提示效果
 		//判断该笔订单是否在商户网站中已经做过处理
 			//如果没有做过处理，根据订单号（out_trade_no）在商户网站的订单系统中查到该笔订单的详细，并执行商户的业务程序
 			//如果有做过处理，不执行商户的业务程序
@@ -65,7 +62,7 @@ else {
     echo "验证失败";
 }
 ?>
-        <title>支付宝即时到账交易接口</title>
+        <title>支付宝手机网站支付接口</title>
 	</head>
     <body>
     </body>

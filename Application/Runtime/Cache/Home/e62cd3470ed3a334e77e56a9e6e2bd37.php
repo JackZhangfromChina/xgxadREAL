@@ -78,7 +78,7 @@
 					answer3 = $("#answer3 :input").val();
 					question = $("#question :input").val();
 					// alert($("#answercorrect").val());
-					$.post('/index.php/Home/Index/doAjax',
+					$.post('/xgxAD/index.php/Home/Index/doAjax',
 							{"answer1":answer1,"answer2":answer2,
 						     "answer3":answer3,"question":question,
 								"answercorrect": answercorrect},

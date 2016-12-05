@@ -13,15 +13,15 @@
 	<body class="bj-white">
 		<!--头部-->
 		<header>
-			<a href="<?php echo U('User/center');?>">
+			<a href="<?php echo U('User/wallet');?>">
 				<div class="header-back">
 					<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Head_Fanhui_bai@2x.png" />
 				</div>
 			</a>
 			充值
 		</header>
-		<form method="post" action="">
-			<p class="recharge-num">金额：￥<b>500</b></p>
+		<form method="post" action="<?php echo U('recharge');?>">
+			<p class="recharge-num">金额：￥<b><input type="text" name="money" placeholder="500"></b></p>
 			<h4 class="recharge-title">选择充值方式</h4>
 			<ul class="recharge-type">
 				<li>
@@ -34,7 +34,7 @@
 					<b>微信支付</b>
 					<span></span>
 				</li>-->
-				<input type="text" placeholder="请输入支付宝帐号" name="" />
+				<!--<input type="text" placeholder="请输入支付宝帐号" name="account" />-->
 			</ul>
 			<input type="submit" value="确认充值" class="money-button bg-red"/>
 		</form>
