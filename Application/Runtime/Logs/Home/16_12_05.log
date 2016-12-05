@@ -694,3 +694,17 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2016-12-05T17:43:04+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 14  [ RunTime:0.0030s ]
+
+[ 2016-12-05T17:43:07+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 206  [ RunTime:0.0030s ]
+
