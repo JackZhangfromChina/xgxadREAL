@@ -36,36 +36,57 @@ class IndexController extends Controller {
     //处理ajax发来的各种数据
     public  function doAjax()
     {
-
+        //echo 11;die;
         $data['answer1'] = I('post.answer1');
-        //echo $answer1;
-        $data['answer2'] = I('post.answer2');
+        $data['answer2']= I('post.answer2');
         $data['answer3'] = I('post.answer3');
-        $question = I('post.question');
-        $questioncorrect = I('post.answercorrect');
-        $question = M('question');
-        $answer = M('answer');
-
-        $qInfo= $question->field('question')->add();
-        $aInfo= $answer->field(array('answer1','answer2','answer3' ))->data('$data')->add();
-        if($questioncorrect==$answer1){
-            $answer->field(array('answer1' => 1))->save();
+        $data['question'] = I('post.question');
+        //echo  $data['answer1'];
+        $data['province_id'] = I('post.province');
+        $data['city_id'] = I('post.city');
+        $data['district_id'] = I('post.district');
+        //$data['price'] = I('post.price');
+        $data['add_time'] = time();
+        $answercorrect= I('post.answercorrect');
+        //$question = M('question');
+        $fb = M('fb');
+        //$fb->field('province,city,district')->add(array('province'=>$province,'city'=>$city,'district'=>$district));
+        //echo $question;
+        //dump($data);die;
+        //$info1 = $question->field('question')->add(array($ques));
+        //echo $answercorrect;
+        //$num = $answer->field('answer1,answer2,answer3,question,add_time,province_id,city_id,district_id')->add($data);
+        if($answercorrect === "answer1"){
+            $data['isright'] = $data['answer1'];
+            //$answer->field('isrignt')->save($data2);
+            $num = $fb->field('answer1,answer2,answer3,question,isright,province_id,city_id,district_id,add_time')->add($data);
+            //echo 11;
+            //$answer-> where("id=75")->setField('isrignt','test');
         }
-        if($questioncorrect==$answer2){
-            $answer->field(array('answer2' => 1))->save();
-        }if($questioncorrect==$answer3){
-            $answer->field(array('answer3' => 1))->save();
+        if($answercorrect === "answer2"){
+            //echo 22;
+            $data['isright'] = $data['answer2`'];
+            //$answer->field('isright')->save(array('answer2' =>$data['answer2']));
+            $num = $fb->field('answer1,answer2,answer3,question,isright,province_id,city_id,district_id,add_time')->add($data);
+            //$answer-> where("id=".$num)->setField('isrignt','$data["answer2"]');
+        }if($answercorrect === "answer3"){
+            //echo 33;
+            $data['isright'] = $data['answer3'];
+            //$answer->field('isright')->save(array('answer3' =>$data['answer3']));
+            $num = $fb->field('answer1,answer2,answer3,question,isright,province_id,city_id,district_id,add_time')->add($data);
+             //$answer-> where("id=".$num)->setField('isrignt','$data["answer3"]');
         }
-        //echo $answer1;
-        //echo 22;
-
+        echo $num;
         //完成重要的一步
-
-
-
     }
+    
+    
+    
+    
+    
+    
     //空操作
-    public function _empty() //魔法方法？？
+    public function _empty() //魔术方法？？
     {
         $this ->display('Empty/error');
     }
@@ -101,6 +122,8 @@ class IndexController extends Controller {
     {
         $id = I('get.id');
         $fb = M('fb');
+        //问题表包含了问题和答案等许多信息
+        $answer = M('answer');
         $detail = $fb ->where("id=".$id)->find();
          //dump($detail);die;
         $this ->assign('detail' , $detail);
@@ -110,12 +133,12 @@ class IndexController extends Controller {
 
     public function dealfabu()
     {
-        $post = I('post.');
-        #实例化模型
+        #实例化模型，表单提交数据
         $model = M('fb');
-        #添加时间
-        $post['addtime'] = time();
+        //$data = $model ->create();
+        $num = I('post.num');
 
+        //dump($num);die;
         #实例化上传类
         $cfg = array(
                 'rootPath'      =>  WORKING_PATH . UPLOAD_ROOT_PATH //保存根路径
@@ -125,24 +148,23 @@ class IndexController extends Controller {
         $info = $upload -> uploadOne($_FILES['pic']);
         //var_dump($info);die;
         #判断上传的结果，上传失败返回false
-        
         if($info){
-            $post = array(
+            $data = array(
                 'filepath' =>UPLOAD_ROOT_PATH.$info['savepath'].$info['savename'],
                 'filename' =>$info['savename'],
                 'hasfile' => 1,
                 );
         }
-        #添加操作
-        $rst = $model -> add($post);
+        $rst = $model ->where("id={$num}")-> save($data);
         #判断添加操作返回值
-        if($rst){
+        if($rst ){
             #添加成功
             $this -> success('添加成功~',U('index'),1);
         }else{
             #添加失败
-            $this -> error('添加失败~',U('fabu'),3);
+            $this -> error('添加失败~',U('fabu'),1);
         }
+
         
     }
 
@@ -184,7 +206,7 @@ class IndexController extends Controller {
 
                 $im -> thumb(350,350,6);
                 $m_name = $up->rootPath.$v['savepath'].'m_'.$v['savename'];
-                $im -> save($m_name); 
+                $im -> save($m_name);
 
                 $im -> thumb(50,50,6);
                 $s_name = $up->rootPath.$v['savepath'].'s_'.$v['savename'];

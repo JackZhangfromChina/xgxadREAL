@@ -15,7 +15,7 @@
  
 //↓↓↓↓↓↓↓↓↓↓请在这里配置您的基本信息↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 //合作身份者ID，签约账号，以2088开头由16位纯数字组成的字符串，查看地址：https://openhome.alipay.com/platform/keyManage.htm?keyType=partner
-$alipay_config['partner']		='2088911824498415';
+$alipay_config['partner']='2088911824498415';
 
 //收款支付宝账号，以2088开头由16位纯数字组成的字符串，一般情况下收款账号就是签约账号
 $alipay_config['seller_id']	= $alipay_config['partner'];
@@ -39,10 +39,10 @@ yWK4jYDcD4xle+OYsjVY+vsEi4bV90eoStvJ7B5IJfA=';
 $alipay_config['alipay_public_key']= 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB';
 
 // 服务器异步通知页面路径  需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-$alipay_config['notify_url'] = "http://localhost/Common/Plugin/notify_url.php";
+$alipay_config['notify_url'] = "http://xgxad/Common/Plugin/notify_url.php";
 
 // 页面跳转同步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-$alipay_config['return_url'] = "http://localhost/Common/Plugin/return_url.php";
+$alipay_config['return_url'] = "http://xgxad/Common/Plugin/return_url.php";
 
 //签名方式
 $alipay_config['sign_type']    = strtoupper('RSA');

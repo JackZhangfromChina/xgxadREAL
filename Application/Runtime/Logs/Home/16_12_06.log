@@ -1,0 +1,1301 @@
+[ 2016-12-06T09:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 2  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:14:48+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 52  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:17:58+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 2  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:18:00+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 52  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:18:13+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0130s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: answer2 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: answer3 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:24:51+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 2  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:24:53+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 52  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:24:58+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0100s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0290s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: answer2 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: answer3 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T09:26:15+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 2  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:26:25+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 52  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:26:35+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0060s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0270s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: answer2 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: answer3 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:26:53+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 3  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:26:56+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 36  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:28:20+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 6  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:28:23+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 9  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:28:26+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 120  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:28:29+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0290s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: answer2 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: answer3 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T09:30:48+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0400s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: answer2 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: answer3 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T09:31:10+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 3  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:31:12+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 39  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:32:53+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0470s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: answer2 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: answer3 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:33:39+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0360s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: answer2 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: answer3 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:33:57+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0350s ]
+NOTIC: [8] Undefined variable: answer1 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: answer2 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: answer3 D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T09:36:22+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:39:20+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 8  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:39:25+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:40:38+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 10  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:40:40+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 139  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:40:48+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:41:49+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 12  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:41:51+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 167  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:42:20+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T09:42:30+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 8  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:42:33+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 12  [ RunTime:0.0030s ]
+
+[ 2016-12-06T09:42:35+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 169  [ RunTime:0.0020s ]
+
+[ 2016-12-06T09:43:38+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0060s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:45:43+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:53:44+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:21:20+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:22:28+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T11:01:07+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 16  [ RunTime:0.0020s ]
+
+[ 2016-12-06T11:01:09+08:00 ] 127.0.0.1 /index.php/Home/Index/getAreaByAreaId.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `xgx_area` WHERE `parent_id` = 220  [ RunTime:0.0030s ]
+
+[ 2016-12-06T11:01:57+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0100s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('16','220','1838') [ RunTime:0.0350s ]
+SQL: INSERT INTO `xgx_question` (`question`) VALUES ('') [ RunTime:0.0270s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`) VALUES ('答案1','正确答案','答案3') [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T11:09:08+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0240s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:12:07+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0420s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:14:49+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0460s ]
+NOTIC: [8] Undefined index: question D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 53 行.
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:16:02+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0090s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0450s ]
+NOTIC: [8] Undefined index: question D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 53 行.
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:16:14+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: question D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 53 行.
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:17:56+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0370s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:21:24+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0420s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:22:34+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0090s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0320s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:31:11+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0100s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0360s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:32:14+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0330s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:33:03+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0370s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:35:17+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0280s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T11:48:28+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0090s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0250s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T12:01:40+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0100s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T12:03:43+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T12:05:37+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0590s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T12:07:03+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0520s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T12:07:39+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0340s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` (`question`) VALUES ('')
+
+[ 2016-12-06T12:08:51+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T12:20:00+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0090s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0290s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T12:23:06+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0370s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T12:23:22+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T12:24:50+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0080s ]
+
+[ 2016-12-06T13:39:27+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0320s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+
+[ 2016-12-06T13:46:20+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0340s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+
+[ 2016-12-06T13:47:24+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0350s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+
+[ 2016-12-06T13:47:41+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0330s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+
+[ 2016-12-06T13:48:02+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_fb` (`province`,`city`,`district`) VALUES ('-1','-1','-1') [ RunTime:0.0330s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\phpStudy\WWW\xgxAD\Application\Home\Controller\IndexController.class.php 第 54 行.
+
+[ 2016-12-06T13:50:56+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+
+[ 2016-12-06T13:55:24+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`) VALUES ('飒飒','发的','股份非官方大哥发的') [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T13:56:50+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:01:03+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T14:01:31+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T14:03:22+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T14:04:00+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T14:09:49+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T14:13:10+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T14:15:02+08:00 ] 127.0.0.1 /index.php/Home/Index/doajax
+ERR: 1062:Duplicate entry '' for key 'question'
+ [ SQL语句 ] : INSERT INTO `xgx_question` () VALUES ()
+
+[ 2016-12-06T14:28:23+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0340s ]
+SQL: INSERT INTO `xgx_answer` (`isright`) VALUES ('') [ RunTime:0.0280s ]
+SQL: INSERT INTO `xgx_answer` (`isright`) VALUES ('') [ RunTime:0.0300s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`) VALUES ('','','') [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:28:44+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0500s ]
+SQL: INSERT INTO `xgx_answer` (`isright`) VALUES ('') [ RunTime:0.0280s ]
+SQL: INSERT INTO `xgx_answer` (`isright`) VALUES ('') [ RunTime:0.0300s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`) VALUES ('','','') [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:29:00+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` () VALUES () [ RunTime:0.0270s ]
+SQL: INSERT INTO `xgx_answer` (`isright`) VALUES ('') [ RunTime:0.0300s ]
+SQL: INSERT INTO `xgx_answer` (`isright`) VALUES ('') [ RunTime:0.0280s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`) VALUES ('','','') [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:29:46+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`) VALUES ('','','') [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:30:35+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`) VALUES ('委屈翁群二无','热让他我让他突然','而我却群翁无群二无群') [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:31:26+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('热热','一条让人讨厌有人同意让他','有人特让人讨厌','') [ RunTime:0.0400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:32:41+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('也让他一人特热天','沃尔特突然问问','沃特热热热天无二日问题','') [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:37:42+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('高富帅道德规范','三个的发光飞碟','辅导书官方割发代首','') [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:39:45+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('认为群若翁','同人文','野丫头','') [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:39:47+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('认为群若翁','同人文','野丫头','') [ RunTime:0.0750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:40:49+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:44:00+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','玩儿方法','','') [ RunTime:0.0720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:49:01+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:51:23+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:53:54+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:54:22+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:55:58+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T14:57:53+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T14:58:27+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','规范规定发的') [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T15:15:23+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('答案1','答案2','答案3','问题1') [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T15:16:49+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+
+[ 2016-12-06T15:17:43+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('啥答案所大所多','四大按时打算的','啥答案所多撒多','阿萨德撒多') [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-06T15:18:14+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('的撒撒多','的撒所大所','的撒发生地方','敖德萨所多所多') [ RunTime:0.0770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:20:11+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('答案1','答案2','答案3','问题3') [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:22:00+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('访问微风','访问微风围墙外','其味无穷','耳朵无翁') [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:22:29+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('绯闻绯闻为','仍无法违法','惹我翁热','而我二无') [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:24:19+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('一个人的开发','真爽','ok','你知道吗') [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:29:38+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('番茄味访问','热热二无群二','热吻无若翁群','恩爱的多翁群群') [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:32:12+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('大青蛙无多群群无','水电费杜甫诗撒大声地','分手大师的大神','晚上请我七点半') [ RunTime:0.0330s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\xgxAD\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:35:15+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('人情味请问请问温热','委屈委屈无群二','而我二无群无','驱蚊器群无') [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:40:21+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('而我二无若翁人','惹我热无翁','热温热问问人','而我翁无额') [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T15:45:43+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('规范地方的故事是大法官','国防生的割发代首','供奉割发代首','东方市场打发打发') [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:50:50+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('发送到第三方s','封禅大典是的飒飒','惹我翁翁','额无法定位燃放') [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T15:51:46+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('热吻无若群翁翁人','惹我无群二二无群 ','热吻无群群二无若','定位奥多的无群的无群') [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:52:58+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('太热石头人','而我却二翁','热翁维尔','特热热死人') [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T15:53:39+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('黑寡妇方法的','会飞的规范化个 ','沪电股份托夫或多若疼','股份的认购个') [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:58:05+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('二维温热无无','扔掉福','个人人儿','伟大的无的无') [ RunTime:0.0610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T15:59:47+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('广东省反倒是','二恶','第三方第三方','更大的国防生') [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T16:00:26+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('未发放慰问','分为风味粉屋','挂号费豆腐干豆腐','访问访问微风') [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T16:02:43+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('个地方sere','规范的地方是大多数','反攻倒算是的范德萨','富商大贾告诉对方') [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T16:04:07+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('二维二若','惹我认为','热翁维尔','问问无法') [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T16:04:43+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-06T16:05:19+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('','','','') [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T16:07:01+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('发撒大师杜甫','防守打法的撒啊','发送到撒地方','方法撒打算') [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T16:11:48+08:00 ] 127.0.0.1 /index.php/Home/Index/doAjax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xgx_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `xgx_answer` (`answer1`,`answer2`,`answer3`,`question`) VALUES ('四大阿斯顿','发生的发生','的飒飒大师','的撒大撒所') [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

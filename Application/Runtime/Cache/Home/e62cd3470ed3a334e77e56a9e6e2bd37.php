@@ -20,7 +20,7 @@
 					//发送ajax请求
 					$.ajax({
 						url: "<?php echo U('Index/getAreaByAreaId');?>",
-						type: 'POST',
+						type: 'post',
 						dataType: 'json',
 						data: {pid: provinceId},
 						success: function(jsonObj){
@@ -42,7 +42,7 @@
 					//发送ajax请求
 					$.ajax({
 						url: "<?php echo U('Index/getAreaByAreaId');?>",
-						type: 'POST',
+						type: 'post',
 						dataType: 'json',
 						data: {pid: cityId},
 						success: function(jsonObj){
@@ -62,28 +62,44 @@
 			//兴趣标签多选信息的提交
 			$(function(){
 				// 设置属性值
-				$("input:submit").on('click' ,function() {
+				$("#nextstep").on('click',function() {
 					var interest = "";
 					$("input:checkbox[name='interest']:checked").each(function() {
 						interest += $(this).val() + " ";
 					});
+					//alert(interest);
 					var answer1 = "";
 					var answer2 = "";
 					var answer3 = "";
 					var question= "";
 					var answercorrect = "";
+					var province ="";
+					var city="";
+					var district="";
+					var price="";
 					answer1 = $("#answer1 :input").val();
 					//alert(answer1);
 					answer2 = $("#answer2 :input").val();
 					answer3 = $("#answer3 :input").val();
-					question = $("#question :input").val();
+					price = $(".accunt-num input:text").val();
+					answercorrect = $("#answercorrect").val();
+					province = $("#province").val();
+					city = $("#city").val();
+					district = $('#district').val();
+					question = $("input:text").val();
+					//alert(price);
 					// alert($("#answercorrect").val());
-					$.post('/index.php/Home/Index/doAjax',
+					$.post("<?php echo U('doAjax');?>",
 							{"answer1":answer1,"answer2":answer2,
 						     "answer3":answer3,"question":question,
-								"answercorrect": answercorrect},
+								"answercorrect": answercorrect,
+								"province":province,
+								"city":city,
+								"district":district,
+							},
 							function(msg){
-								//alert(msg);
+								alert(msg);
+								$('#num').val(msg);
 							});
 
 				});
@@ -141,34 +157,35 @@
 	</div>-->
 	<div class="tjimg">
 		<div id="imgPreview" class="imgPreview">
-			
+
 		</div>
 		<div class="add_img">
 			<input type="file" name="pic" id="up_load" onchange="PreviewImage(this)" class="up_load" />
 			<img class="add" src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Iconfont_Tupian@2x.png" alt="" />
 		</div>
 	</div>
-	<p class="putout-title">设置问题（正确答案按钮请保持<span class="red-color">红色</span>）</p>
+	<p class="putout-title" >设置问题（正确答案按钮请保持<span class="red-color">红色</span>）</p>
 	<div class="box-border">
-		<p>问题:<b class="question">星享APP是一个做什么的APP?</b></p>
+		<p>问题:<b class="question" id="question">星享APP是一个做什么的APP?</b></p>
 		<b class="putout-answer">答案：</b>
 		<ul>
 			<li id="answer1"><span>赚钱</span></li>
 			<li id="answer2"><span>直播</span></li>
 			<li id="answer3" class="correct-bj"><span></span></li>
             <input type="hidden" id="answercorrect" name="answercorrect" value="" />
+			<input type="hidden" name="num"  id="num">
 		</ul>
 	</div>
 	<div class="some-more">
 		<p>目标受众性别：
-			<select id="sex">
+			<select id="sex" name="sex">
 				<option aaa="all">全部</option>
 				<option aaa="boy">男</option>
 				<option aaa="girl">女</option>
 			</select>
 		</p>
 		<p>目标受众年龄：
-			<select id="age">
+			<select id="age" name="age">
 					<option bbb="all">全部</option>
 					<option bbb="teen">15-20</option>
 					<option bbb="young">20-30</option>
@@ -176,20 +193,20 @@
 					<option bbb="middle-aged">40-60</option>
 			</select>
 		</p>
-	
+
 		<p>目标受众城市：
 			<b class="balck-color">
-				<select id='province'>
+				<select id='province' name="province">
 					<option value="-1">省份/直辖市</option>
 					<!--遍历省份/直辖市信息-->
 					<?php if(is_array($province)): $i = 0; $__LIST__ = $province;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>"><?php echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
 				</select>
-				<select id="city">
+				<select id="city" name="city">
 					<option value="-1">市</option>
 				</select>
-				<select id="district">
-					<option value="-1">区/县</option>
-				</select>	
+				<select id="district" name="district">
+					<option value="-1">区/+县</option>
+				</select>
 			</b>
 		</p>
 		<p>预算：<b class="red-color">￥<em class="accunt-num">500</em></b>元
@@ -269,7 +286,7 @@
 					imgFile.select();
 					path = document.selection.createRange().text;
 					document.getElementById("imgPreview").innerHTML = "";
-					document.getElementById("imgPreview").style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='scale',src=\"" + path + "\")"; //使用滤镜效果  
+					document.getElementById("imgPreview").style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='scale',src=\"" + path + "\")"; //使用滤镜效果
 				} else {
 					count++;
 					var reader = new FileReader();

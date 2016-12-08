@@ -14,7 +14,7 @@ return array(
 	"SHOW_PAGE_TRACE" => TRUE,
 	// 配置插件变量的值
 	"PLUGIN_URL" => "/Application/Common/Plugin/",
-	"SITE_URL" => "http://localhost/xgxAD/",
+	"SITE_URL" => "http://localhost/xgxad/",
 
 	/* 数据库设置 */
     'DB_TYPE'               =>  'mysql',     // 数据库类型

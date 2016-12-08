@@ -13,7 +13,7 @@
 	<body class="bj-white">
 		<!--头部-->
 		<header>
-			<a href="<?php echo U('User/center');?>">
+			<a href="<?php echo U('User/wallet');?>">
 				<div class="header-back">
 					<img src="<?php echo C('SITE_URL'); echo C('IMG_URL');?>Head_Fanhui_bai@2x.png" />
 				</div>

@@ -190,7 +190,10 @@ class UserController extends Controller{
             $fm = <<<eof
         <form action="/application/Common/Plugin/alipay/alipayapi.php" method="post">
             <input type="hidden" name="WIDout_trade_no" value="$order_number" />
-            <input type="hidden" name="WIDsubject" value="广告充值" />
+            <input type="hidden" name="
+            
+            
+            WIDsubject" value="广告充值" />
             <input type="hidden" name="WIDtotal_fee" value="$order_price" />
             <input type="hidden" name="WIDbody" value="" />
             <input type="hidden" name="WIDshow_url" value="" />
