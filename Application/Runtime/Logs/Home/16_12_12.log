@@ -1,0 +1,20 @@
+[ 2016-12-12T09:56:35+08:00 ] ::1 /xgxad/index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0100s ]
+SQL: INSERT INTO `xgx_fb` (`answer1`,`answer2`,`answer3`,`question`,`province_id`,`city_id`,`district_id`,`add_time`,`isright`) VALUES ('11','22','33','ceshi','-1','-1','-1','1481507795','33') [ RunTime:0.0700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T09:57:01+08:00 ] ::1 /xgxad/index.php/Home/Index/doAjax
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `xgx_fb` [ RunTime:0.0110s ]
+SQL: INSERT INTO `xgx_fb` (`answer1`,`answer2`,`answer3`,`question`,`province_id`,`city_id`,`district_id`,`add_time`,`isright`) VALUES ('2ee22e','w222w2','s22ss','test','-1','-1','-1','1481507821','s22ss') [ RunTime:0.1210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

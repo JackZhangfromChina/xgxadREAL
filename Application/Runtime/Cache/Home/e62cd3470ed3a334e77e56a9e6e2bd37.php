@@ -89,7 +89,7 @@
 					question = $("input:text").val();
 					//alert(price);
 					// alert($("#answercorrect").val());
-					$.post("<?php echo U('doAjax');?>",
+					$.post("/xgxad/index.php/Home/Index/doAjax",
 							{"answer1":answer1,"answer2":answer2,
 						     "answer3":answer3,"question":question,
 								"answercorrect": answercorrect,

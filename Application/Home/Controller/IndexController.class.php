@@ -79,28 +79,6 @@ class IndexController extends Controller {
         echo $num;
         //完成重要的一步
     }
-
-    //检查答案的正确性
-    public function checkAnswer()
-    {
-        $answer = I('post.choose');
-        $id = I('post.id');
-        dump(I('post.'));die;
-        $fb = M('fb');
-        $correct = $fb->where("isright='{$answer}'and id='{$id}'")->find();
-        $this ->assign('correct',$correct);
-        /*if($correct){
-            $this->success('回答正确',U('redPacket'),1);
-        }else{
-            $this ->error('回答错误，请继续努力',U('index'),1);
-        }*/
-
-    }
-
-    public function redPacket()
-    {
-        $this->display();
-    }
     
     
     
@@ -147,7 +125,7 @@ class IndexController extends Controller {
         //问题表包含了问题和答案等许多信息
         $answer = M('answer');
         $detail = $fb ->where("id=".$id)->find();
-        //dump($detail);die;
+         //dump($detail);die;
         $this ->assign('detail' , $detail);
 
         $this->display();
