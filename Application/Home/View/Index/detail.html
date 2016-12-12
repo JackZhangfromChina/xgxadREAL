@@ -9,32 +9,51 @@
     <link rel="stylesheet" type="text/css" href="{:C('SITE_URL')}{:C('CSS_URL')}all.css"/>
     <title>详情页</title>
     <script src="{:C('SITE_URL')}{:C('JS_URL')}common.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body class="bj-white">
-	<div class="imgshow-box">
-		<img src="{:C('SITE_URL')}{$detail['filepath']}" />
-	</div>
-	<div class="detail-width border-have detail-title">
-		<img src="{:C('SITE_URL')}{:C('IMG_URL')}vote.jpg" />
-		<div class="introduce">
-			<p>星享APP</p>
-			<p>一个有温度的分享社区</p>
-		</div>
-		<div class="bdsharebuttonbox">
-			<a href="#" class="bds_more" data-cmd="more"></a>
-			<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-			<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-			<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a
-			><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
-			<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-		</div>
-		<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"",
-			"bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},
-			"share":{}};
-		with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-		</script>
-
-		<!--<img src="{:C('SITE_URL')}{:C('IMG_URL')}iconfont_fenxiang@2x.png" class="share-img">-->
+     <script type="text/javascript" src="{:C('SITE_URL')}{:C('JS_URL')}jquery-1.8.3.min.js"></script>
+    <!-- <script type="text/javascript">
+     	$(function(){
+     		$("#sumbit-redbag").on("click",function(){
+     			var answer = "";
+     			var id="";
+     			answer = $(".correct-bj").text();
+     			id = $("#yin").val();
+      			$.post("__URL__/checkAnswer", 
+     	 			{"isright":answer,"id":id},
+     		 			function(msg){
+     		 				console.log(msg);
+     		 				} );
+     		     		
+     		});
+     			
+     
+     	});
+     </script> --> 
+     </head>
+     <body class="bj-white">
+     	<div class="imgshow-box">
+     		<img src="{:C('SITE_URL')}{$detail['filepath']}" />
+     	</div>
+     	<div class="detail-width border-have detail-title">
+     		<img src="{:C('SITE_URL')}{:C('IMG_URL')}vote.jpg" />
+     		<div class="introduce">
+     			<p>星享APP</p>
+     			<p>一个有温度的分享社区</p>
+     		</div>
+     		<div class="bdsharebuttonbox">
+     			<a href="#" class="bds_more" data-cmd="more"></a>
+     			<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+     			<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+     			<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a
+     			><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+     			<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+     		</div>
+     		<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"",
+     			"bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},
+     			"share":{}};
+     		with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+     		</script>
+     
+     	<img src="{:C('SITE_URL')}{:C('IMG_URL')}iconfont_fenxiang@2x.png" class="share-img">
 	</div>
 	<p class="detail-width border-have explain-box">
 		<span class="explain">收益说明</span>
@@ -52,17 +71,22 @@
 		</ul>
 	</div>
 	<h3 class="answer">看完广告答对问题可获得奖励</h3>
+	<form action="__CONTROLLER__/checkAnswer" method="post">
 	<div class="detail-width answer-box">
 		<p class="border-have">
-			星享APP是一个做什么的APP？
+			{$detail['question']}
 		</p>
+		<input type="radio" name="choose" value="{$detail['answer1']}" >
 		<ul>
-			<li>挣钱</li>
-			<li>直播</li>
-			<li>图片分享、直播的社交平台</li>
+			<li><input type="radio" name="choose" value="{$detail['answer1']}" >{$detail['answer1']}</li>
+			<li><input type="radio" name="choose" value="{$detail['answer2']}">{$detail['answer2']}</li>
+			<li><input type="radio" name="choose" value="{$detail['answer3']}">{$detail['answer3']}</li>
 		</ul>
-		<input type="button" value="提交" class="button-style" id="sumbit-redbag"/>
+		
+		<input type="hidden" name="id" id="yin" value="{$detail['id']}">
+		<input type="submit" value="提交" class="button-style" id="sumbit-redbag">
 	</div>
+	</form >
 	<!--模态框-->
 	<div class="modal-box">
 		<!--红包弹出框-->
